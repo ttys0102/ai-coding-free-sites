@@ -1,0 +1,32 @@
+{
+  "name": "ai-coding-free-sites",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI 编程公益站精选：AgentRouter / TaBiAI / GoRouter / JustDoWork 四个免费额度公益站，README 与落地页由脚本自动生成",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "refresh": "node scripts/refresh.mjs",
+    "history": "node scripts/history.mjs",
+    "backfill": "node scripts/history.mjs --backfill",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "notify": "node scripts/notify.mjs",
+    "test": "node scripts/test.mjs",
+    "all": "npm test && npm run refresh && npm run history && npm run build && npm run check"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "ai-api",
+    "free-credits",
+    "new-api",
+    "agentrouter",
+    "tabitoken",
+    "gorouter",
+    "justdowork"
+  ],
+  "license": "MIT"
+}
