@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-03T04:35:51.831Z",
+  "generatedAt": "2026-09-03T09:28:24.814Z",
   "sites": [
     {
       "id": "agentrouter",
-      "checkedAt": "2026-09-03T04:35:45.529Z",
+      "checkedAt": "2026-09-03T09:28:18.497Z",
       "online": true,
-      "latencyMs": 324,
+      "latencyMs": 315,
       "error": "invalid json",
       "systemName": "Agent Router",
       "version": "init-20260901-138138e7",
@@ -147,7 +147,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1408,
+        "ms": 1308,
         "attempts": 1
       },
       "mirrors": [
@@ -176,13 +176,14 @@
       "probeBlocked": false
     },
     {
-      "id": "justdowork",
-      "checkedAt": "2026-09-03T04:35:39.536Z",
-      "online": true,
-      "latencyMs": 423,
+      "id": "tabitoken",
+      "checkedAt": "2026-09-03T09:28:14.812Z",
+      "apiOk": true,
+      "pricingOk": true,
+      "latencyMs": 716,
       "error": null,
-      "systemName": "JustDoWork",
-      "version": "v1.0.0-rc.23",
+      "systemName": "TaBiAI",
+      "version": "init-20260817-f880a343",
       "registerOpen": true,
       "passwordRegister": false,
       "checkinEnabled": true,
@@ -190,39 +191,71 @@
         "GitHub",
         "账号密码"
       ],
-      "githubMinAccountAgeDays": 365,
+      "githubMinAccountAgeDays": null,
       "quotaPerUnit": 500000,
       "inviteeBonusUsd": null,
       "inviterBonusUsd": null,
       "topupEnabled": null,
+      "services": [],
       "announcements": [],
-      "models": [],
-      "modelsSource": "login-required",
+      "models": [
+        {
+          "name": "claude-opus-5",
+          "ratio": 0,
+          "completionRatio": 0,
+          "fixedPrice": 0.8,
+          "inputPerMTok": null,
+          "outputPerMTok": null,
+          "groups": [
+            "vip",
+            "default"
+          ],
+          "protocols": [
+            "anthropic",
+            "openai"
+          ]
+        },
+        {
+          "name": "claude-opus-5-thinking",
+          "ratio": 0,
+          "completionRatio": 0,
+          "fixedPrice": 0.8,
+          "inputPerMTok": null,
+          "outputPerMTok": null,
+          "groups": [
+            "vip",
+            "default"
+          ],
+          "protocols": [
+            "anthropic",
+            "openai"
+          ]
+        }
+      ],
+      "modelsSource": "public-api",
       "defaults": {
-        "claude": null,
-        "openai": null
+        "claude": "claude-opus-5",
+        "openai": "claude-opus-5"
       },
       "signup": {
-        "status": 200,
-        "ok": true,
-        "ms": 632,
+        "status": 403,
+        "ok": false,
+        "ms": 428,
         "attempts": 1
       },
       "mirrors": [],
-      "apiOk": true,
-      "pricingOk": false,
+      "probeBlocked": false,
+      "online": true,
       "dataStale": false,
       "staleFrom": null,
-      "staleFields": [],
-      "services": [],
-      "probeBlocked": false
+      "staleFields": []
     },
     {
       "id": "gorouter",
-      "checkedAt": "2026-09-03T04:35:41.886Z",
+      "checkedAt": "2026-09-03T09:28:14.625Z",
       "apiOk": true,
       "pricingOk": true,
-      "latencyMs": 519,
+      "latencyMs": 33,
       "error": null,
       "systemName": "GoRouter",
       "version": "init-20260813-3cd90886",
@@ -280,7 +313,7 @@
       "signup": {
         "status": 403,
         "ok": false,
-        "ms": 491,
+        "ms": 448,
         "attempts": 1
       },
       "mirrors": [],
@@ -291,14 +324,13 @@
       "staleFields": []
     },
     {
-      "id": "tabitoken",
-      "checkedAt": "2026-09-03T04:35:42.325Z",
-      "apiOk": true,
-      "pricingOk": true,
-      "latencyMs": 247,
+      "id": "justdowork",
+      "checkedAt": "2026-09-03T09:28:12.626Z",
+      "online": true,
+      "latencyMs": 465,
       "error": null,
-      "systemName": "TaBiAI",
-      "version": "init-20260817-f880a343",
+      "systemName": "JustDoWork",
+      "version": "v1.0.0-rc.23",
       "registerOpen": true,
       "passwordRegister": false,
       "checkinEnabled": true,
@@ -306,64 +338,32 @@
         "GitHub",
         "账号密码"
       ],
-      "githubMinAccountAgeDays": null,
+      "githubMinAccountAgeDays": 365,
       "quotaPerUnit": 500000,
       "inviteeBonusUsd": null,
       "inviterBonusUsd": null,
       "topupEnabled": null,
-      "services": [],
       "announcements": [],
-      "models": [
-        {
-          "name": "claude-opus-5",
-          "ratio": 0,
-          "completionRatio": 0,
-          "fixedPrice": 0.8,
-          "inputPerMTok": null,
-          "outputPerMTok": null,
-          "groups": [
-            "vip",
-            "default"
-          ],
-          "protocols": [
-            "anthropic",
-            "openai"
-          ]
-        },
-        {
-          "name": "claude-opus-5-thinking",
-          "ratio": 0,
-          "completionRatio": 0,
-          "fixedPrice": 0.8,
-          "inputPerMTok": null,
-          "outputPerMTok": null,
-          "groups": [
-            "default",
-            "vip"
-          ],
-          "protocols": [
-            "anthropic",
-            "openai"
-          ]
-        }
-      ],
-      "modelsSource": "public-api",
+      "models": [],
+      "modelsSource": "login-required",
       "defaults": {
-        "claude": "claude-opus-5",
-        "openai": "claude-opus-5"
+        "claude": null,
+        "openai": null
       },
       "signup": {
-        "status": 403,
-        "ok": false,
-        "ms": 941,
+        "status": 200,
+        "ok": true,
+        "ms": 710,
         "attempts": 1
       },
       "mirrors": [],
-      "probeBlocked": false,
-      "online": true,
+      "apiOk": true,
+      "pricingOk": false,
       "dataStale": false,
       "staleFrom": null,
-      "staleFields": []
+      "staleFields": [],
+      "services": [],
+      "probeBlocked": false
     }
   ]
 }
