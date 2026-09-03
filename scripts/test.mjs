@@ -850,7 +850,7 @@ test('没这个站的历史时不报错，返回空口径', () => {
 console.log('changelog / Atom：订阅出口');
 
 const META = {
-  title: 'AI 编程公益站精选',
+  title: 'Claude等顶级AI大模型公益站精选',
   tagline: '免费额度合集',
   keywords: ['claude code'],
   repoUrl: 'https://github.com/ttys0102/ai-coding-free-sites',

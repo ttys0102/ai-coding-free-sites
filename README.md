@@ -1,4 +1,4 @@
-<h1 align="center">AI 编程公益站精选</h1>
+<h1 align="center">Claude等顶级AI大模型公益站精选</h1>
 
 <p align="center">免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站精选</p>
 
