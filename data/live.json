@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-04T16:19:42.937Z",
+  "generatedAt": "2026-09-04T20:44:27.347Z",
   "sites": [
     {
       "id": "agentrouter",
-      "checkedAt": "2026-09-04T16:19:36.985Z",
+      "checkedAt": "2026-09-04T20:44:21.154Z",
       "online": true,
-      "latencyMs": 229,
+      "latencyMs": 316,
       "error": "invalid json",
       "systemName": "Agent Router",
       "version": "init-20260901-138138e7",
@@ -147,7 +147,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1066,
+        "ms": 1181,
         "attempts": 1
       },
       "mirrors": [
@@ -177,10 +177,10 @@
     },
     {
       "id": "tabitoken",
-      "checkedAt": "2026-09-04T16:19:33.146Z",
+      "checkedAt": "2026-09-04T20:44:17.386Z",
       "apiOk": true,
       "pricingOk": true,
-      "latencyMs": 185,
+      "latencyMs": 695,
       "error": null,
       "systemName": "TaBiAI",
       "version": "init-20260817-f880a343",
@@ -203,7 +203,7 @@
           "name": "claude-opus-5",
           "ratio": 0,
           "completionRatio": 0,
-          "fixedPrice": 0.8,
+          "fixedPrice": 0.35,
           "inputPerMTok": null,
           "outputPerMTok": null,
           "groups": [
@@ -218,7 +218,7 @@
           "name": "claude-opus-5-thinking",
           "ratio": 0,
           "completionRatio": 0,
-          "fixedPrice": 0.8,
+          "fixedPrice": 0.4,
           "inputPerMTok": null,
           "outputPerMTok": null,
           "groups": [
@@ -238,7 +238,7 @@
       "signup": {
         "status": 403,
         "ok": false,
-        "ms": 493,
+        "ms": 460,
         "attempts": 1
       },
       "mirrors": [],
@@ -250,10 +250,10 @@
     },
     {
       "id": "gorouter",
-      "checkedAt": "2026-09-04T16:19:33.115Z",
+      "checkedAt": "2026-09-04T20:44:17.411Z",
       "apiOk": true,
       "pricingOk": true,
-      "latencyMs": 24,
+      "latencyMs": 677,
       "error": null,
       "systemName": "GoRouter",
       "version": "init-20260813-3cd90886",
@@ -311,7 +311,7 @@
       "signup": {
         "status": 403,
         "ok": false,
-        "ms": 511,
+        "ms": 484,
         "attempts": 1
       },
       "mirrors": [],
@@ -323,9 +323,9 @@
     },
     {
       "id": "justdowork",
-      "checkedAt": "2026-09-04T16:19:31.634Z",
+      "checkedAt": "2026-09-04T20:44:15.312Z",
       "online": true,
-      "latencyMs": 672,
+      "latencyMs": 571,
       "error": null,
       "systemName": "JustDoWork",
       "version": "v1.0.0-rc.23",
@@ -351,7 +351,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 860,
+        "ms": 1366,
         "attempts": 1
       },
       "mirrors": [],

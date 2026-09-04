@@ -6,6 +6,11 @@ Claude等顶级AI大模型公益站精选的自动变动记录：站点上下线
 
 > 只记录会影响「值不值得注册」的字段。探测被站点 WAF 拦下时不记在线状态变化，避免机房 IP 被拦被误报成掉线。
 
+## 2026-09-04
+
+- 🏷️ TaBiAI claude-opus-5 价格 $0.8 / 次 → $0.35 / 次 <sub>20:44 UTC</sub>
+- 🏷️ TaBiAI claude-opus-5-thinking 价格 $0.8 / 次 → $0.4 / 次 <sub>20:44 UTC</sub>
+
 ## 2026-09-01
 
 - ➖ TaBiAI 下线模型：claude-opus-4-8、claude-opus-4-8-thinking <sub>16:41 UTC</sub>
