@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-05T15:11:03.021Z",
+  "generatedAt": "2026-09-05T15:27:27.299Z",
   "sites": [
     {
       "id": "agentrouter",
-      "checkedAt": "2026-09-05T15:10:56.800Z",
+      "checkedAt": "2026-09-05T15:27:21.338Z",
       "online": true,
-      "latencyMs": 311,
+      "latencyMs": 250,
       "error": "invalid json",
       "systemName": "Agent Router",
       "version": "init-20260901-138138e7",
@@ -147,7 +147,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1283,
+        "ms": 1090,
         "attempts": 1
       },
       "mirrors": [
@@ -177,10 +177,10 @@
     },
     {
       "id": "tabitoken",
-      "checkedAt": "2026-09-05T15:10:53.666Z",
+      "checkedAt": "2026-09-05T15:27:17.375Z",
       "apiOk": true,
       "pricingOk": true,
-      "latencyMs": 374,
+      "latencyMs": 172,
       "error": null,
       "systemName": "TaBiAI",
       "version": "init-20260817-f880a343",
@@ -207,8 +207,8 @@
           "inputPerMTok": null,
           "outputPerMTok": null,
           "groups": [
-            "default",
-            "vip"
+            "vip",
+            "default"
           ],
           "protocols": [
             "anthropic",
@@ -223,8 +223,8 @@
           "inputPerMTok": null,
           "outputPerMTok": null,
           "groups": [
-            "default",
-            "vip"
+            "vip",
+            "default"
           ],
           "protocols": [
             "anthropic",
@@ -239,8 +239,8 @@
           "inputPerMTok": null,
           "outputPerMTok": null,
           "groups": [
-            "default",
-            "vip"
+            "vip",
+            "default"
           ],
           "protocols": [
             "anthropic",
@@ -255,8 +255,8 @@
           "inputPerMTok": null,
           "outputPerMTok": null,
           "groups": [
-            "default",
-            "vip"
+            "vip",
+            "default"
           ],
           "protocols": [
             "anthropic",
@@ -272,7 +272,7 @@
       "signup": {
         "status": 403,
         "ok": false,
-        "ms": 329,
+        "ms": 413,
         "attempts": 1
       },
       "mirrors": [],
@@ -284,10 +284,10 @@
     },
     {
       "id": "gorouter",
-      "checkedAt": "2026-09-05T15:10:52.654Z",
+      "checkedAt": "2026-09-05T15:27:17.511Z",
       "apiOk": true,
       "pricingOk": true,
-      "latencyMs": 73,
+      "latencyMs": 63,
       "error": null,
       "systemName": "GoRouter",
       "version": "init-20260813-3cd90886",
@@ -345,7 +345,7 @@
       "signup": {
         "status": 403,
         "ok": false,
-        "ms": 423,
+        "ms": 522,
         "attempts": 1
       },
       "mirrors": [],
@@ -357,9 +357,9 @@
     },
     {
       "id": "justdowork",
-      "checkedAt": "2026-09-05T15:10:50.915Z",
+      "checkedAt": "2026-09-05T15:27:15.828Z",
       "online": true,
-      "latencyMs": 434,
+      "latencyMs": 538,
       "error": null,
       "systemName": "JustDoWork",
       "version": "v1.0.0-rc.23",
@@ -385,7 +385,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 678,
+        "ms": 718,
         "attempts": 1
       },
       "mirrors": [],
@@ -399,10 +399,10 @@
     },
     {
       "id": "workbuddy",
-      "checkedAt": "2026-09-05T15:10:52.932Z",
+      "checkedAt": "2026-09-05T15:27:17.749Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 2450,
+      "latencyMs": 2458,
       "error": null,
       "systemName": null,
       "version": null,
@@ -426,7 +426,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2403,
+        "ms": 2775,
         "attempts": 1
       },
       "mirrors": [],
