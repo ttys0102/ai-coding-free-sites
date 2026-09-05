@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-4%20%E4%B8%AA-blue" alt="收录站点">
   <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-4%2F4-brightgreen" alt="在线">
   <img src="https://img.shields.io/badge/%E9%A6%96%E6%97%A5%E5%8F%AF%E5%BE%97-%E6%9C%80%E9%AB%98%20%24175-success" alt="首日可得">
-  <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--09--04%2020.44%20UTC-informational" alt="数据更新">
+  <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--09--05%2004.23%20UTC-informational" alt="数据更新">
 </p>
 
 <p align="center">
@@ -25,11 +25,11 @@
 | 站点 | 状态 | 首日可得 | 额度构成 | 之后每天 | 兼容协议 | 模型 | 注册 |
 | :-- | :--: | :--: | :-- | :--: | :--: | :--: | :--: |
 | **AgentRouter** 🔥 | 🟢 在线 | **$175** | 注册 $100 + 本页邀请 $50 + 首签 $25 | $25/天 | Anthropic + OpenAI | 5 个可查 | [点此注册 →](https://agentrouter.org/register?aff=meOs) |
-| **TaBiAI** | 🟢 在线 | **$120** | 注册 $100 + 本页邀请 $20 | 支持签到 | Anthropic + OpenAI | 2 个可查 | [GitHub 注册 →](https://tabitoken.com/sign-up?aff=GJVG) |
+| **TaBiAI** | 🟢 在线 | **$120** | 注册 $100 + 本页邀请 $20 | 支持签到 | Anthropic + OpenAI | 4 个可查 | [GitHub 注册 →](https://tabitoken.com/sign-up?aff=GJVG) |
 | **GoRouter** | 🟢 在线 | **$70** | 注册 $50 + 本页邀请 $20 | 支持签到 | Anthropic + OpenAI | 2 个可查 | [GitHub 注册 →](https://gorouter.app/sign-up?aff=eZeS) |
 | **JustDoWork** | 🟢 在线 | **≈$92** | 注册 $70 + 首签 ≈$22 | ≈$22/天 | Anthropic + OpenAI | 需登录查看 | [GitHub 注册 →](https://api.justwoker.icu/register?aff=kTKc) |
 
-> 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-09-04 20:44 UTC`。
+> 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-09-05 04:23 UTC`。
 >
 > 4 个还收新用户的站全注册一遍，第一天手上大约有 **$457** 额度可用。
 >
@@ -76,12 +76,12 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 79 小时没抓到新数据，下列信息为 `2026-09-01 14:01 UTC` 的快照
+- ⚠ 接口已连续 86 小时没抓到新数据，下列信息为 `2026-09-01 14:01 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260901-138138e7`
 - 邀请他人可得：**$50**
 - 登录方式：GitHub / LinuxDO
-- 接口延迟：316 ms
+- 接口延迟：250 ms
 
 **镜像 / 备用入口**
 
@@ -219,12 +219,14 @@ curl -s https://agentrouter.org/v1/chat/completions \
 - 每日签到：✅
 - 开放注册：✅（站点关掉了邮箱密码注册，得用 GitHub 登录建号（防批量注册的常规做法）。）
 - 登录方式：GitHub / 账号密码
-- 接口延迟：695 ms
+- 接口延迟：194 ms
 
 **当前可用模型**
 
 | 模型 | 倍率 | 输入 / 1M tokens | 输出 / 1M tokens | 协议 |
 | :-- | :--: | :--: | :--: | :--: |
+| `claude-opus-4-8` | 按次 | **$0.5 / 次** | — | anthropic / openai |
+| `claude-opus-4-8-thinking` | 按次 | **$0.5 / 次** | — | anthropic / openai |
 | `claude-opus-5` | 按次 | **$0.35 / 次** | — | anthropic / openai |
 | `claude-opus-5-thinking` | 按次 | **$0.4 / 次** | — | anthropic / openai |
 
@@ -338,7 +340,7 @@ curl -s https://tabitoken.com/v1/chat/completions \
 - 每日签到：✅
 - 开放注册：✅（站点关掉了邮箱密码注册，得用 GitHub 登录建号（防批量注册的常规做法）。）
 - 登录方式：GitHub / 账号密码
-- 接口延迟：677 ms
+- 接口延迟：59 ms
 
 **当前可用模型**
 
@@ -459,7 +461,7 @@ curl -s https://gorouter.app/v1/chat/completions \
 - 开放注册：✅（站点关掉了邮箱密码注册，得用 GitHub 登录建号（防批量注册的常规做法）。）
 - 登录方式：GitHub / 账号密码
 - GitHub 账号需满 **365 天**
-- 接口延迟：571 ms
+- 接口延迟：451 ms
 
 > 该站模型清单需登录后台查看，注册后在「模型价格」页确认。
 
@@ -545,7 +547,7 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 ## 🔔 额度变了，这里会通知你
 
-CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目前已攒下 71 个样本、覆盖约 14.5 天。额度调整、掉线与恢复、模型上下线、价格变动都会自动记一条：
+CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目前已攒下 72 个样本、覆盖约 14.8 天。额度调整、掉线与恢复、模型上下线、价格变动都会自动记一条：
 
 - 点仓库右上角 **Watch → Custom → Releases**：有重要变动时 GitHub 直接发邮件
 - 订阅 [Atom feed](https://ttys0102.github.io/ai-coding-free-sites/feed.xml)：RSS 阅读器 / Feedly / Telegram 机器人都能读
@@ -553,12 +555,12 @@ CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目�
 
 最近几条：
 
+- `2026-09-05` ➕ TaBiAI 上线模型：claude-opus-4-8、claude-opus-4-8-thinking
 - `2026-09-04` 🏷️ TaBiAI claude-opus-5 价格 $0.8 / 次 → $0.35 / 次
 - `2026-09-04` 🏷️ TaBiAI claude-opus-5-thinking 价格 $0.8 / 次 → $0.4 / 次
 - `2026-09-01` ➖ TaBiAI 下线模型：claude-opus-4-8、claude-opus-4-8-thinking
 - `2026-09-01` ➖ GoRouter 下线模型：claude-opus-4-8、claude-opus-4-8-thinking
 - `2026-08-30` 🆕 新收录 GoRouter：注册送 $50，邀请再加 $20
-- `2026-08-30` 🆕 新收录 TaBiAI：注册送 $100，邀请再加 $20
 
 完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 

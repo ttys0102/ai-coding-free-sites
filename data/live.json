@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-04T20:44:27.347Z",
+  "generatedAt": "2026-09-05T04:23:34.357Z",
   "sites": [
     {
       "id": "agentrouter",
-      "checkedAt": "2026-09-04T20:44:21.154Z",
+      "checkedAt": "2026-09-05T04:23:28.481Z",
       "online": true,
-      "latencyMs": 316,
+      "latencyMs": 250,
       "error": "invalid json",
       "systemName": "Agent Router",
       "version": "init-20260901-138138e7",
@@ -147,7 +147,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1181,
+        "ms": 980,
         "attempts": 1
       },
       "mirrors": [
@@ -177,10 +177,10 @@
     },
     {
       "id": "tabitoken",
-      "checkedAt": "2026-09-04T20:44:17.386Z",
+      "checkedAt": "2026-09-05T04:23:24.534Z",
       "apiOk": true,
       "pricingOk": true,
-      "latencyMs": 695,
+      "latencyMs": 194,
       "error": null,
       "systemName": "TaBiAI",
       "version": "init-20260817-f880a343",
@@ -200,6 +200,38 @@
       "announcements": [],
       "models": [
         {
+          "name": "claude-opus-4-8",
+          "ratio": 0,
+          "completionRatio": 0,
+          "fixedPrice": 0.5,
+          "inputPerMTok": null,
+          "outputPerMTok": null,
+          "groups": [
+            "vip",
+            "default"
+          ],
+          "protocols": [
+            "anthropic",
+            "openai"
+          ]
+        },
+        {
+          "name": "claude-opus-4-8-thinking",
+          "ratio": 0,
+          "completionRatio": 0,
+          "fixedPrice": 0.5,
+          "inputPerMTok": null,
+          "outputPerMTok": null,
+          "groups": [
+            "vip",
+            "default"
+          ],
+          "protocols": [
+            "anthropic",
+            "openai"
+          ]
+        },
+        {
           "name": "claude-opus-5",
           "ratio": 0,
           "completionRatio": 0,
@@ -207,6 +239,7 @@
           "inputPerMTok": null,
           "outputPerMTok": null,
           "groups": [
+            "vip",
             "default"
           ],
           "protocols": [
@@ -222,6 +255,7 @@
           "inputPerMTok": null,
           "outputPerMTok": null,
           "groups": [
+            "vip",
             "default"
           ],
           "protocols": [
@@ -238,7 +272,7 @@
       "signup": {
         "status": 403,
         "ok": false,
-        "ms": 460,
+        "ms": 332,
         "attempts": 1
       },
       "mirrors": [],
@@ -250,10 +284,10 @@
     },
     {
       "id": "gorouter",
-      "checkedAt": "2026-09-04T20:44:17.411Z",
+      "checkedAt": "2026-09-05T04:23:24.595Z",
       "apiOk": true,
       "pricingOk": true,
-      "latencyMs": 677,
+      "latencyMs": 59,
       "error": null,
       "systemName": "GoRouter",
       "version": "init-20260813-3cd90886",
@@ -311,7 +345,7 @@
       "signup": {
         "status": 403,
         "ok": false,
-        "ms": 484,
+        "ms": 427,
         "attempts": 1
       },
       "mirrors": [],
@@ -323,9 +357,9 @@
     },
     {
       "id": "justdowork",
-      "checkedAt": "2026-09-04T20:44:15.312Z",
+      "checkedAt": "2026-09-05T04:23:22.952Z",
       "online": true,
-      "latencyMs": 571,
+      "latencyMs": 451,
       "error": null,
       "systemName": "JustDoWork",
       "version": "v1.0.0-rc.23",
@@ -351,7 +385,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1366,
+        "ms": 620,
         "attempts": 1
       },
       "mirrors": [],
