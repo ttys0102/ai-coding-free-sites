@@ -136,11 +136,13 @@ export function diffSnapshots(prevLive, nextLive, sites = []) {
     const site = meta.get(id);
     if (!A.has(id)) {
       const c = site?.credits ?? {};
+      // 单位感知：积分站（credits.unit === 'point'）不能拼 $，否则会出现「注册送 $3000」这种错话
+      const money = (n) => (c.unit === 'point' ? `${n} 积分` : `$${n}`);
       const bits = [
-        c.signup ? `注册送 $${c.signup}` : null,
-        c.invite ? `邀请再加 ${c.unit === 'point' ? `${c.invite} 积分` : `$${c.invite}`}` : null,
-        c.dailyCheckin ? `每日签到 $${c.dailyCheckin}` : null,
-        c.dailyQuota ? `每日额度池 $${c.dailyQuota}` : null,
+        c.signup ? `注册送 ${money(c.signup)}` : null,
+        c.invite ? `邀请再加 ${money(c.invite)}` : null,
+        c.dailyCheckin ? `每日签到 ${money(c.dailyCheckin)}` : null,
+        c.dailyQuota ? `每日额度池 ${money(c.dailyQuota)}` : null,
       ].filter(Boolean);
       events.push({
         at,

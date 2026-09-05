@@ -8,6 +8,7 @@ Claude等顶级AI大模型公益站精选的自动变动记录：站点上下线
 
 ## 2026-09-05
 
+- 🆕 新收录 WorkBuddy：注册送 3000 积分，邀请再加 50 积分，每日签到 100 积分 <sub>14:53 UTC</sub>
 - ➕ TaBiAI 上线模型：claude-opus-4-8、claude-opus-4-8-thinking <sub>04:23 UTC</sub>
 
 ## 2026-09-04

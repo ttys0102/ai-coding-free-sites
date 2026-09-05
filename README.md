@@ -3,17 +3,18 @@
 <p align="center">免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站精选</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-4%20%E4%B8%AA-blue" alt="收录站点">
-  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-4%2F4-brightgreen" alt="在线">
+  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-5%20%E4%B8%AA-blue" alt="收录站点">
+  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-5%2F5-brightgreen" alt="在线">
   <img src="https://img.shields.io/badge/%E9%A6%96%E6%97%A5%E5%8F%AF%E5%BE%97-%E6%9C%80%E9%AB%98%20%24175-success" alt="首日可得">
-  <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--09--05%2010.31%20UTC-informational" alt="数据更新">
+  <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--09--05%2014.53%20UTC-informational" alt="数据更新">
 </p>
 
 <p align="center">
   <a href="https://agentrouter.org/register?aff=meOs"><b>AgentRouter 注册</b></a> ·
   <a href="https://tabitoken.com/sign-up?aff=GJVG"><b>TaBiAI 注册</b></a> ·
   <a href="https://gorouter.app/sign-up?aff=eZeS"><b>GoRouter 注册</b></a> ·
-  <a href="https://api.justwoker.icu/register?aff=kTKc"><b>JustDoWork 注册</b></a>
+  <a href="https://api.justwoker.icu/register?aff=kTKc"><b>JustDoWork 注册</b></a> ·
+  <a href="https://workbuddy.ai/invite?code=J3YMXR29"><b>WorkBuddy 注册</b></a>
 </p>
 
 <p align="center"><a href="https://ttys0102.github.io/ai-coding-free-sites/compare/">📊 按次 vs 按量折算横评</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/status/">🩺 可用性历史</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/changelog/">🗓 变动日志</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/feed.xml">🔔 Atom 订阅</a></p>
@@ -28,10 +29,11 @@
 | **TaBiAI** | 🟢 在线 | **$120** | 注册 $100 + 本页邀请 $20 | 支持签到 | Anthropic + OpenAI | 4 个可查 | [GitHub 注册 →](https://tabitoken.com/sign-up?aff=GJVG) |
 | **GoRouter** | 🟢 在线 | **$70** | 注册 $50 + 本页邀请 $20 | 支持签到 | Anthropic + OpenAI | 2 个可查 | [GitHub 注册 →](https://gorouter.app/sign-up?aff=eZeS) |
 | **JustDoWork** | 🟢 在线 | **≈$92** | 注册 $70 + 首签 ≈$22 | ≈$22/天 | Anthropic + OpenAI | 需登录查看 | [GitHub 注册 →](https://api.justwoker.icu/register?aff=kTKc) |
+| **WorkBuddy** | 🟢 在线 | **≈3150 积分** | 注册 3000 积分 + 本页邀请 50 积分 + 首签 ≈100 积分 | ≈100 积分/天 | 桌面客户端 | 需登录查看 | [点此注册 →](https://workbuddy.ai/invite?code=J3YMXR29) |
 
-> 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-09-05 10:31 UTC`。
+> 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-09-05 14:53 UTC`。
 >
-> 4 个还收新用户的站全注册一遍，第一天手上大约有 **$457** 额度可用。
+> 4 个按美元计价、且还收新用户的站全注册一遍，第一天手上大约有 **$457** 额度可用；WorkBuddy 另发 ≈3150 积分，是站内积分、与美元没有公开换算，未计入这个合计。
 >
 > 🟡 有 1 个站点已超过 48 小时没抓到接口数据，其明细为上一次成功抓取的快照；在线状态按注册页实际可访问性判断。
 
@@ -76,7 +78,7 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 93 小时没抓到新数据，下列信息为 `2026-09-01 14:01 UTC` 的快照
+- ⚠ 接口已连续 97 小时没抓到新数据，下列信息为 `2026-09-01 14:01 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260901-138138e7`
 - 邀请他人可得：**$50**
@@ -545,9 +547,67 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 ---
 
+### 🟢 WorkBuddy
+
+> 腾讯 AI 智能体桌面客户端 · 新用户礼包约 3000 积分，邀请双方各得积分，签到与每月免费额度续命
+
+<a href="https://workbuddy.ai/invite?code=J3YMXR29"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-WorkBuddy-brightgreen?style=for-the-badge" alt="注册 WorkBuddy"></a>
+
+**为什么值得注册**
+
+- 腾讯出品的全场景 AI 智能体桌面工作台：一句话派任务，自动拆解执行，文档 / 表格 / PPT / 深度研究 / AI 编程都能直接交付结果
+- 新用户礼包社区实测约 3000+ 积分（注册后到成长中心手动领取，90 天有效），从本页邀请链接注册双方再各得 50–2000 积分
+- 每日签到 100 积分，免费体验版每月 1 号再自动发 500 积分，日常轻度使用基本不花钱
+- 不用申请 API Key、不用配环境变量，下载客户端登录就能用，不会折腾中转站也能上手
+
+**能拿多少额度**
+
+- 注册即送：**3000 积分**
+- 从本页邀请链接注册额外：**50 积分**
+- 每日签到：**≈100 积分/天**（长期续命的关键）
+- 首日合计：**≈3150 积分**　（注册 3000 积分 + 本页邀请 50 积分 + 首签 ≈100 积分）
+
+**实时数据**（自动抓取站点公开接口）
+
+- 接口延迟：613 ms
+
+> WorkBuddy 是成品客户端而不是 API 中转站：模型内置、按任务类型调度，不对外开放 Base URL 与模型价格页，也就没有可抓取的模型清单；积分按任务消耗，以客户端「个人中心 → 使用量」为准。
+
+**注册要求**
+
+- 务必从本页邀请链接进入注册（带 ?code=J3YMXR29），邀请积分按邀请关系结算，走裸链双方都没有这笔奖励
+- 新用户礼包不会自动到账，注册后需到客户端「成长中心」手动领取，90 天逾期作废
+- 部分地区访问国际站 workbuddy.ai 会提示服务不可用，遇到这种情况可改用国内站 workbuddy.cn（同产品国内版）
+
+**接入配置**
+
+> WorkBuddy 不是 API 中转站，是装好就能用的 AI 智能体客户端：模型内置、按任务自动调度，不需要 Base URL / API Key 那一套配置。
+
+1. 从本页邀请链接进入，注册账号并按引导下载客户端（Windows / macOS）
+2. 登录后到「个人中心 → 成长中心」手动领取新用户积分礼包（90 天内不领会作废）
+3. 日常在客户端左下角头像处签到领积分，轻量任务用轻量模式更省分
+
+控制台入口：<https://workbuddy.ai>
+
+**如何继续拿额度**
+
+- 每日签到 100 积分：客户端左下角头像 → 领取今日礼包，需手动点领、不自动到账
+- 免费体验版每月 1 号自动发 500 积分，当月有效、不累积
+- 邀请好友双方各得 50–2000 积分，无上限：个人中心 → 邀请好友，复制链接转发即可
+- 轻量任务用轻量模型 / Ask 模式，消耗约为深度推理模型的 1/3，等于变相攒分
+
+**⚠️ 使用前必读**
+
+- 积分数额（新用户礼包约 3000、邀请奖励 50–2000、签到 100/天、每月 500）来自 2026-07 社区实测与官方计费文档，官方会不定期调整，一切以客户端实际展示为准
+- 注册赠分 90 天有效、签到与活动积分约 180 天有效，过期作废，领完规划着用、别囤
+- WorkBuddy 不对外开放 API，不能当中转站接 Claude Code / Codex / Cursor；要 API 额度请用本页其它站点，两者互补
+- 请勿相信「刷分 / 破解 / 无限积分」，基本是骗局且容易封号
+
+---
+
 ## 🔔 额度变了，这里会通知你
 
-CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目前已攒下 73 个样本、覆盖约 15.1 天。额度调整、掉线与恢复、模型上下线、价格变动都会自动记一条：
+CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目前已攒下 74 个样本、覆盖约 15.3 天。额度调整、掉线与恢复、模型上下线、价格变动都会自动记一条：
 
 - 点仓库右上角 **Watch → Custom → Releases**：有重要变动时 GitHub 直接发邮件
 - 订阅 [Atom feed](https://ttys0102.github.io/ai-coding-free-sites/feed.xml)：RSS 阅读器 / Feedly / Telegram 机器人都能读
@@ -555,12 +615,12 @@ CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目�
 
 最近几条：
 
+- `2026-09-05` 🆕 新收录 WorkBuddy：注册送 3000 积分，邀请再加 50 积分，每日签到 100 积分
 - `2026-09-05` ➕ TaBiAI 上线模型：claude-opus-4-8、claude-opus-4-8-thinking
 - `2026-09-04` 🏷️ TaBiAI claude-opus-5 价格 $0.8 / 次 → $0.35 / 次
 - `2026-09-04` 🏷️ TaBiAI claude-opus-5-thinking 价格 $0.8 / 次 → $0.4 / 次
 - `2026-09-01` ➖ TaBiAI 下线模型：claude-opus-4-8、claude-opus-4-8-thinking
 - `2026-09-01` ➖ GoRouter 下线模型：claude-opus-4-8、claude-opus-4-8-thinking
-- `2026-08-30` 🆕 新收录 GoRouter：注册送 $50，邀请再加 $20
 
 完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
@@ -642,6 +702,6 @@ npm run check     # 校验链接是否还活着
 
 <p align="center"><b>觉得有用点个 ⭐ Star</b>，福利站有变动时这里会自动更新。</p>
 
-<sub>关键词：Claude Code 免费 · Claude Code 中转 · Codex 中转 · Codex 公益站 · AI API 中转站 · 公益站 · 免费 API 额度 · 每日免费额度 · claude-opus-5 API · New API · AgentRouter · TaBiAI · GoRouter · JustDoWork · claude-opus-5 按次计费</sub>
+<sub>关键词：Claude Code 免费 · Claude Code 中转 · Codex 中转 · Codex 公益站 · AI API 中转站 · 公益站 · 免费 API 额度 · 每日免费额度 · claude-opus-5 API · New API · AgentRouter · TaBiAI · GoRouter · JustDoWork · claude-opus-5 按次计费 · WorkBuddy · WorkBuddy 邀请码 · AI Agent 免费积分</sub>
 
 <!-- 本文件由 scripts/build.mjs 自动生成，请修改 data/sites.json 或 scripts/lib/render-readme.mjs -->

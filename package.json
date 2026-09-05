@@ -2,7 +2,7 @@
   "name": "ai-coding-free-sites",
   "version": "1.0.0",
   "private": true,
-  "description": "Claude等顶级AI大模型公益站精选：AgentRouter / TaBiAI / GoRouter / JustDoWork 四个免费额度公益站，README 与落地页由脚本自动生成",
+  "description": "Claude等顶级AI大模型公益站精选：AgentRouter / TaBiAI / GoRouter / JustDoWork 免费额度公益站 + WorkBuddy 邀请注册，README 与落地页由脚本自动生成",
   "type": "module",
   "engines": {
     "node": ">=18"

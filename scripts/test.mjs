@@ -784,6 +784,13 @@ test('新站按 sites.json 的额度口径记一条收录事件，移除站点�
   const removed = diffSnapshots({ sites: [snap()] }, { generatedAt: iso(0), sites: [] }, SITES_FIXTURE);
   assert.deepEqual(types(removed), ['site_removed']);
 });
+test('积分站的收录事件用「积分」而不是 $（WorkBuddy 收录时踩过的坑）', () => {
+  const pointSites = [
+    { id: 'agentrouter', name: 'WorkBuddy', credits: { signup: 3000, invite: 50, dailyCheckin: 100, unit: 'point' } },
+  ];
+  const added = diffSnapshots({ sites: [] }, { generatedAt: iso(0), sites: [snap()] }, pointSites);
+  assert.equal(added[0].text, '新收录 WorkBuddy：注册送 3000 积分，邀请再加 50 积分，每日签到 100 积分');
+});
 test('majorOnly 只放行值得发 Release 的类型', () => {
   const mixed = [...D(snap(), snap({ inviterBonusUsd: 20 })), ...D(snap(), snap({ inviteeBonusUsd: 20 }))];
   assert.deepEqual(types(majorOnly(mixed)), ['invite_change']);
