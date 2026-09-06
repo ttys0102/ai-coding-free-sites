@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-05T20:18:19.958Z",
+  "generatedAt": "2026-09-06T04:35:04.083Z",
   "sites": [
     {
       "id": "agentrouter",
-      "checkedAt": "2026-09-05T20:18:13.616Z",
+      "checkedAt": "2026-09-06T04:34:57.807Z",
       "online": true,
-      "latencyMs": 318,
+      "latencyMs": 309,
       "error": "invalid json",
       "systemName": "Agent Router",
       "version": "init-20260901-138138e7",
@@ -147,7 +147,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1220,
+        "ms": 1239,
         "attempts": 1
       },
       "mirrors": [
@@ -177,10 +177,10 @@
     },
     {
       "id": "tabitoken",
-      "checkedAt": "2026-09-05T20:18:09.716Z",
+      "checkedAt": "2026-09-06T04:34:54.188Z",
       "apiOk": true,
       "pricingOk": true,
-      "latencyMs": 426,
+      "latencyMs": 732,
       "error": null,
       "systemName": "TaBiAI",
       "version": "init-20260817-f880a343",
@@ -264,7 +264,7 @@
           ]
         }
       ],
-      "modelsSource": "public-api",
+      "modelsSource": "cached",
       "defaults": {
         "claude": "claude-opus-5",
         "openai": "claude-opus-5"
@@ -272,22 +272,25 @@
       "signup": {
         "status": 403,
         "ok": false,
-        "ms": 445,
+        "ms": 501,
         "attempts": 1
       },
       "mirrors": [],
       "probeBlocked": false,
       "online": true,
-      "dataStale": false,
-      "staleFrom": null,
-      "staleFields": []
+      "dataStale": true,
+      "staleFrom": "2026-09-05T20:18:09.716Z",
+      "staleFields": [
+        "models",
+        "defaults"
+      ]
     },
     {
       "id": "gorouter",
-      "checkedAt": "2026-09-05T20:18:09.808Z",
+      "checkedAt": "2026-09-06T04:34:54.094Z",
       "apiOk": true,
       "pricingOk": true,
-      "latencyMs": 175,
+      "latencyMs": 88,
       "error": null,
       "systemName": "GoRouter",
       "version": "init-20260813-3cd90886",
@@ -337,7 +340,7 @@
           ]
         }
       ],
-      "modelsSource": "public-api",
+      "modelsSource": "cached",
       "defaults": {
         "claude": "claude-opus-5",
         "openai": "claude-opus-5"
@@ -345,21 +348,24 @@
       "signup": {
         "status": 403,
         "ok": false,
-        "ms": 517,
+        "ms": 573,
         "attempts": 1
       },
       "mirrors": [],
       "probeBlocked": false,
       "online": true,
-      "dataStale": false,
-      "staleFrom": null,
-      "staleFields": []
+      "dataStale": true,
+      "staleFrom": "2026-09-05T20:18:09.808Z",
+      "staleFields": [
+        "models",
+        "defaults"
+      ]
     },
     {
       "id": "justdowork",
-      "checkedAt": "2026-09-05T20:18:07.743Z",
+      "checkedAt": "2026-09-06T04:34:52.217Z",
       "online": true,
-      "latencyMs": 552,
+      "latencyMs": 768,
       "error": null,
       "systemName": "JustDoWork",
       "version": "v1.0.0-rc.23",
@@ -385,7 +391,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1446,
+        "ms": 1559,
         "attempts": 1
       },
       "mirrors": [],
@@ -399,10 +405,10 @@
     },
     {
       "id": "workbuddy",
-      "checkedAt": "2026-09-05T20:18:09.804Z",
+      "checkedAt": "2026-09-06T04:34:53.925Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 2612,
+      "latencyMs": 2476,
       "error": null,
       "systemName": null,
       "version": null,
@@ -426,7 +432,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2606,
+        "ms": 2800,
         "attempts": 1
       },
       "mirrors": [],
