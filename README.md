@@ -4,9 +4,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-5%20%E4%B8%AA-blue" alt="收录站点">
-  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-4%2F5-orange" alt="在线">
+  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-5%2F5-brightgreen" alt="在线">
   <img src="https://img.shields.io/badge/%E9%A6%96%E6%97%A5%E5%8F%AF%E5%BE%97-%E6%9C%80%E9%AB%98%20%24175-success" alt="首日可得">
-  <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--09--17%2011.38%20UTC-informational" alt="数据更新">
+  <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--09--17%2016.58%20UTC-informational" alt="数据更新">
 </p>
 
 <p align="center">
@@ -27,11 +27,11 @@
 | :-- | :--: | :--: | :-- | :--: | :--: | :--: | :--: |
 | **AgentRouter** 🔥 | 🟢 在线 | **$175** | 注册 $100 + 本页邀请 $50 + 首签 $25 | $25/天 | Anthropic + OpenAI | 5 个可查 | [点此注册 →](https://agentrouter.org/register?aff=meOs) |
 | **TaBiAI** | 🟢 在线 | **$120** | 注册 $100 + 本页邀请 $20 | 支持签到 | Anthropic + OpenAI | 4 个可查 | [GitHub 注册 →](https://tabitoken.com/sign-up?aff=GJVG) |
-| **GoRouter** | 🔴 异常 | **$70** | 注册 $50 + 本页邀请 $20 | 支持签到 | Anthropic + OpenAI | 2 个可查 | [GitHub 注册 →](https://gorouter.app/sign-up?aff=eZeS) |
+| **GoRouter** | 🟢 在线 | **$70** | 注册 $50 + 本页邀请 $20 | 支持签到 | Anthropic + OpenAI | 2 个可查 | [GitHub 注册 →](https://gorouter.app/sign-up?aff=eZeS) |
 | **JustDoWork** | 🟢 在线 | **≈$92** | 注册 $70 + 首签 ≈$22 | ≈$22/天 | Anthropic + OpenAI | 需登录查看 | [GitHub 注册 →](https://api.justwoker.icu/register?aff=kTKc) |
 | **WorkBuddy** | 🟢 在线 | **≈2100 积分** | 注册 2000 积分 + 首签 ≈100 积分 | ≈100 积分/天 | 桌面客户端 | 需登录查看 | [点此注册 →](https://workbuddy.ai/invite?code=J3YMXR29) |
 
-> 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-09-17 11:38 UTC`。
+> 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-09-17 16:58 UTC`。
 >
 > 4 个按美元计价、且还收新用户的站全注册一遍，第一天手上大约有 **$457** 额度可用；WorkBuddy 另发 ≈2100 积分，是站内积分、与美元没有公开换算，未计入这个合计。
 >
@@ -78,12 +78,12 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 382 小时没抓到新数据，下列信息为 `2026-09-01 14:01 UTC` 的快照
+- ⚠ 接口已连续 387 小时没抓到新数据，下列信息为 `2026-09-01 14:01 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260901-138138e7`
 - 邀请他人可得：**$50**
 - 登录方式：GitHub / LinuxDO
-- 接口延迟：302 ms
+- 接口延迟：310 ms
 
 **镜像 / 备用入口**
 
@@ -216,13 +216,13 @@ curl -s https://agentrouter.org/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 279 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
+- ⚠ 接口已连续 285 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
 - 站点名称：**TaBiAI**
 - 面板版本：`init-20260817-f880a343`
 - 每日签到：✅
 - 开放注册：✅（站点关掉了邮箱密码注册，得用 GitHub 登录建号（防批量注册的常规做法）。）
 - 登录方式：GitHub / 账号密码
-- 接口延迟：682 ms
+- 接口延迟：719 ms
 
 **当前可用模型**
 
@@ -317,7 +317,7 @@ curl -s https://tabitoken.com/v1/chat/completions \
 
 ---
 
-### 🔴 GoRouter
+### 🟢 GoRouter
 
 > New API 中转站 · 注册送 $50，本页邀请码再加 $20，按次计费里最便宜的一档
 
@@ -338,13 +338,13 @@ curl -s https://tabitoken.com/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 279 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
+- ⚠ 接口已连续 285 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
 - 站点名称：**GoRouter**
 - 面板版本：`init-20260813-3cd90886`
 - 每日签到：✅
 - 开放注册：✅（站点关掉了邮箱密码注册，得用 GitHub 登录建号（防批量注册的常规做法）。）
 - 登录方式：GitHub / 账号密码
-- 接口延迟：10 ms
+- 接口延迟：625 ms
 
 **当前可用模型**
 
@@ -465,7 +465,7 @@ curl -s https://gorouter.app/v1/chat/completions \
 - 开放注册：✅（站点关掉了邮箱密码注册，得用 GitHub 登录建号（防批量注册的常规做法）。）
 - 登录方式：GitHub / 账号密码
 - GitHub 账号需满 **365 天**
-- 接口延迟：377 ms
+- 接口延迟：527 ms
 
 > 该站模型清单需登录后台查看，注册后在「模型价格」页确认。
 
@@ -570,7 +570,7 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- 接口延迟：3446 ms
+- 接口延迟：3192 ms
 
 > WorkBuddy 是成品客户端而不是 API 中转站：模型内置、按任务类型调度，不对外开放 Base URL 与模型价格页，也就没有可抓取的模型清单；积分按任务消耗，以客户端「个人中心 → 使用量」为准。
 
@@ -608,7 +608,7 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 ## 🔔 额度变了，这里会通知你
 
-CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目前已攒下 123 个样本、覆盖约 27.1 天。额度调整、掉线与恢复、模型上下线、价格变动都会自动记一条：
+CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目前已攒下 124 个样本、覆盖约 27.3 天。额度调整、掉线与恢复、模型上下线、价格变动都会自动记一条：
 
 - 点仓库右上角 **Watch → Custom → Releases**：有重要变动时 GitHub 直接发邮件
 - 订阅 [Atom feed](https://ttys0102.github.io/ai-coding-free-sites/feed.xml)：RSS 阅读器 / Feedly / Telegram 机器人都能读
@@ -616,12 +616,12 @@ CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目�
 
 最近几条：
 
+- `2026-09-17` 🟢 GoRouter 恢复在线
 - `2026-09-17` 🔴 GoRouter 探测不到了：注册页与公开接口都没响应
 - `2026-09-16` 🟢 GoRouter 恢复在线
 - `2026-09-15` 🔴 GoRouter 探测不到了：注册页与公开接口都没响应
 - `2026-09-05` 🆕 新收录 WorkBuddy：注册送 2000 积分，每日签到 100 积分
 - `2026-09-05` ➕ TaBiAI 上线模型：claude-opus-4-8、claude-opus-4-8-thinking
-- `2026-09-04` 🏷️ TaBiAI claude-opus-5 价格 $0.8 / 次 → $0.35 / 次
 
 完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
