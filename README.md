@@ -3,8 +3,8 @@
 <p align="center">免费额度 · 白嫖 Claude Code / Codex / Cursor 的中转与公益站精选</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-5%20%E4%B8%AA-blue" alt="收录站点">
-  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-4%2F5-orange" alt="在线">
+  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-6%20%E4%B8%AA-blue" alt="收录站点">
+  <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-5%2F6-orange" alt="在线">
   <img src="https://img.shields.io/badge/%E9%A6%96%E6%97%A5%E5%8F%AF%E5%BE%97-%E6%9C%80%E9%AB%98%20%24175-success" alt="首日可得">
   <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--09--29%2012.49%20UTC-informational" alt="数据更新">
 </p>
@@ -14,7 +14,8 @@
   <a href="https://tabitoken.com/sign-up?aff=GJVG"><b>TaBiAI 注册</b></a> ·
   <a href="https://gorouter.app/sign-up?aff=eZeS"><b>GoRouter 注册</b></a> ·
   <a href="https://api.justwoker.icu/register?aff=kTKc"><b>JustDoWork 注册</b></a> ·
-  <a href="https://workbuddy.ai/invite?code=J3YMXR29"><b>WorkBuddy 注册</b></a>
+  <a href="https://workbuddy.ai/invite?code=J3YMXR29"><b>WorkBuddy 注册</b></a> ·
+  <a href="https://api.dshapi.icu/r/T8KiaeGU"><b>DSH API 注册</b></a>
 </p>
 
 <p align="center"><a href="https://ttys0102.github.io/ai-coding-free-sites/compare/">📊 按次 vs 按量折算横评</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/status/">🩺 可用性历史</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/changelog/">🗓 变动日志</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/feed.xml">🔔 Atom 订阅</a></p>
@@ -30,10 +31,11 @@
 | **GoRouter** | 🟢 在线 | **$70** | 注册 $50 + 本页邀请 $20 | 支持签到 | Anthropic + OpenAI | 2 个可查 | [GitHub 注册 →](https://gorouter.app/sign-up?aff=eZeS) |
 | **JustDoWork** | 🟢 在线 | **≈$92** | 注册 $70 + 首签 ≈$22 | ≈$22/天 | Anthropic + OpenAI | 需登录查看 | [GitHub 注册 →](https://api.justwoker.icu/register?aff=kTKc) |
 | **WorkBuddy** | 🟢 在线 | **≈2100 积分** | 注册 2000 积分 + 首签 ≈100 积分 | ≈100 积分/天 | 桌面客户端 | 需登录查看 | [点此注册 →](https://workbuddy.ai/invite?code=J3YMXR29) |
+| **DSH API** | 🟢 在线 | 站内公示 | — | — | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://api.dshapi.icu/r/T8KiaeGU) |
 
 > 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-09-29 12:49 UTC`。
 >
-> 4 个按美元计价、且还收新用户的站全注册一遍，第一天手上大约有 **$457** 额度可用；WorkBuddy 另发 ≈2100 积分，是站内积分、与美元没有公开换算，未计入这个合计。
+> 5 个按美元计价、且还收新用户的站全注册一遍，第一天手上大约有 **$457** 额度可用；WorkBuddy 另发 ≈2100 积分，是站内积分、与美元没有公开换算，未计入这个合计。
 >
 > 🟡 有 3 个站点已超过 48 小时没抓到接口数据，其明细为上一次成功抓取的快照；在线状态按注册页实际可访问性判断。
 
@@ -78,7 +80,7 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 671 小时没抓到新数据，下列信息为 `2026-09-01 14:01 UTC` 的快照
+- ⚠ 接口已连续 675 小时没抓到新数据，下列信息为 `2026-09-01 14:01 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260901-138138e7`
 - 邀请他人可得：**$50**
@@ -216,7 +218,7 @@ curl -s https://agentrouter.org/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 569 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
+- ⚠ 接口已连续 572 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
 - 站点名称：**TaBiAI**
 - 面板版本：`init-20260817-f880a343`
 - 每日签到：✅
@@ -338,7 +340,7 @@ curl -s https://tabitoken.com/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 569 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
+- ⚠ 接口已连续 572 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
 - 站点名称：**GoRouter**
 - 面板版本：`init-20260813-3cd90886`
 - 每日签到：✅
@@ -603,6 +605,107 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 - 各类积分都有有效期，过期作废，领完规划着用、别囤
 - WorkBuddy 不对外开放 API，不能当中转站接 Claude Code / Codex / Cursor；要 API 额度请用本页其它站点，两者互补
 - 请勿相信「刷分 / 破解 / 无限积分」，基本是骗局且容易封号
+
+---
+
+### 🟢 DSH API
+
+> 中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic
+
+<a href="https://api.dshapi.icu/r/T8KiaeGU"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-DSH%20API-brightgreen?style=for-the-badge" alt="注册 DSH API"></a>
+
+**为什么值得注册**
+
+- 国模分组 0.08x，就是官网定价的 8%；open ai pro 分组 0.22x
+- 同一个 base URL 同时挂 OpenAI（/v1/models、/v1/chat/completions、/v1/responses）与 Anthropic（/v1/messages）两套协议，Claude Code 和 Codex CLI 不改代码都能直连
+- 十一个可用模型：deepseek-v4-flash / v4.1-flash / pro、glm-5.2 / 5.3 / 5.3-flash、kimi-k2.8 / k3、minimax-m3、hy3 / hy4
+- QQ 邮箱注册，支付宝 / 微信充值，余额不过期，国内直连不需代理
+- 四个端点实测全通：1.61s / 2.19s / 2.37s / 3.94s
+
+**实时数据**（自动抓取站点公开接口）
+
+- 接口延迟：699 ms
+
+> 可用模型：deepseek-v4-flash $1/$4、deepseek-v4.1-flash $1/$4、deepseek-v4-pro $4.5/$13.5、glm-5.2 $8/$28、glm-5.3 $8/$28、glm-5.3-flash $0.8/$2.8、kimi-k2.8 $20/$100、kimi-k3 $20/$100、minimax-m3 $2.1/$8.4、hy3 $1/$4、hy4 $6/$18（单位：美元 / 百万 token，以上是未乘分组倍率的标价；国模分组 0.08x 后即为实付）。
+
+**注册要求**
+
+- 从本页链接进入注册（带短链邀请），邀请关系在注册那一刻绑定
+- QQ 邮箱即可，不需要海外手机号或外币卡
+- 登录后到「API 密钥」页建 key，到「可用渠道」页看分组倍率
+
+**接入配置**
+
+<details open><summary><b>Claude Code</b>（Anthropic 兼容，Base URL 不带 <code>/v1</code>）</summary>
+
+```bash
+# macOS / Linux
+export ANTHROPIC_BASE_URL=https://api.dshapi.icu
+export ANTHROPIC_AUTH_TOKEN=你在站点后台创建的 Key
+export ANTHROPIC_MODEL=<登录后台查看可用模型名>
+npm install -g @anthropic-ai/claude-code@latest && claude
+```
+
+```powershell
+# Windows PowerShell
+$env:ANTHROPIC_BASE_URL = "https://api.dshapi.icu"
+$env:ANTHROPIC_AUTH_TOKEN = "你在站点后台创建的 Key"
+$env:ANTHROPIC_MODEL = "<登录后台查看可用模型名>"
+claude
+```
+
+</details>
+
+<details><summary><b>Codex CLI</b>（OpenAI 兼容，写入 <code>~/.codex/config.toml</code>）</summary>
+
+```toml
+model = "<登录后台查看可用模型名>"
+model_provider = "dshapi"
+
+[model_providers.dshapi]
+name = "DSH API"
+base_url = "https://api.dshapi.icu/v1"
+env_key = "DSHAPI_API_KEY"
+wire_api = "chat"
+```
+
+</details>
+
+<details><summary><b>OpenAI SDK / Cherry Studio / Cursor 等通用客户端</b></summary>
+
+```python
+from openai import OpenAI
+
+client = OpenAI(api_key="你的 Key", base_url="https://api.dshapi.icu/v1")
+resp = client.chat.completions.create(model="<登录后台查看可用模型名>", messages=[{"role": "user", "content": "ping"}])
+print(resp.choices[0].message.content)
+```
+
+通用客户端只需填两项：**Base URL** = `https://api.dshapi.icu/v1`，**API Key** = 站点后台创建的 Key。
+
+</details>
+
+<details><summary><b>连通性自测</b></summary>
+
+```bash
+curl -s https://api.dshapi.icu/v1/chat/completions \
+  -H "Authorization: Bearer $KEY" -H "Content-Type: application/json" \
+  -d '{"model":"<登录后台查看可用模型名>","messages":[{"role":"user","content":"只回复 OK"}]}'
+```
+
+</details>
+
+**如何继续拿额度**
+
+- 邀请返佣 10%，不冻结、无上限、无每日发放上限
+- 充值送额活动以站内公告为准
+
+**⚠️ 使用前必读**
+
+- 按量计费而非免费额度：注册不送额度，需充值后使用
+- 属链接包含邀请短链，非直接官网入口
+- 面板不开放公开的 /api/status，本页只探 robots 放行的 /v1/models（不带 key 回 401 即为存活证据）
+- 速率与稳定性以实测为准，建议先小额充值试跑
 
 ---
 

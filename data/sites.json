@@ -328,6 +328,67 @@
         "请勿相信「刷分 / 破解 / 无限积分」，基本是骗局且容易封号"
       ],
       "community": []
+    },
+    {
+      "id": "dshapi",
+      "name": "DSH API",
+      "subtitle": "中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic",
+      "recommended": false,
+      "panel": "relay",
+      "credits": {
+        "signup": null,
+        "invite": null,
+        "dailyCheckin": null,
+        "approx": false,
+        "note": "按量计费（人民币），注册不发赠额；国模分组 0.08x（官网价 8%）。"
+      },
+      "signupUrl": "https://api.dshapi.icu/r/T8KiaeGU",
+      "homeUrl": "https://api.dshapi.icu",
+      "docsUrl": null,
+      "statusApi": "https://api.dshapi.icu/v1/models",
+      "pricingApi": null,
+      "mirrors": [],
+      "tags": [
+        "中转站",
+        "低倍率",
+        "Claude Code",
+        "Codex",
+        "OpenAI 兼容",
+        "Anthropic 兼容"
+      ],
+      "highlights": [
+        "国模分组 0.08x，就是官网定价的 8%；open ai pro 分组 0.22x",
+        "同一个 base URL 同时挂 OpenAI（/v1/models、/v1/chat/completions、/v1/responses）与 Anthropic（/v1/messages）两套协议，Claude Code 和 Codex CLI 不改代码都能直连",
+        "十一个可用模型：deepseek-v4-flash / v4.1-flash / pro、glm-5.2 / 5.3 / 5.3-flash、kimi-k2.8 / k3、minimax-m3、hy3 / hy4",
+        "QQ 邮箱注册，支付宝 / 微信充值，余额不过期，国内直连不需代理",
+        "四个端点实测全通：1.61s / 2.19s / 2.37s / 3.94s"
+      ],
+      "endpoints": {
+        "anthropic": "https://api.dshapi.icu",
+        "openai": "https://api.dshapi.icu/v1"
+      },
+      "modelsNote": "可用模型：deepseek-v4-flash $1/$4、deepseek-v4.1-flash $1/$4、deepseek-v4-pro $4.5/$13.5、glm-5.2 $8/$28、glm-5.3 $8/$28、glm-5.3-flash $0.8/$2.8、kimi-k2.8 $20/$100、kimi-k3 $20/$100、minimax-m3 $2.1/$8.4、hy3 $1/$4、hy4 $6/$18（单位：美元 / 百万 token，以上是未乘分组倍率的标价；国模分组 0.08x 后即为实付）。",
+      "register": {
+        "methods": [
+          "邮箱注册"
+        ],
+        "requirements": [
+          "从本页链接进入注册（带短链邀请），邀请关系在注册那一刻绑定",
+          "QQ 邮箱即可，不需要海外手机号或外币卡",
+          "登录后到「API 密钥」页建 key，到「可用渠道」页看分组倍率"
+        ]
+      },
+      "earnMore": [
+        "邀请返佣 10%，不冻结、无上限、无每日发放上限",
+        "充值送额活动以站内公告为准"
+      ],
+      "caveats": [
+        "按量计费而非免费额度：注册不送额度，需充值后使用",
+        "属链接包含邀请短链，非直接官网入口",
+        "面板不开放公开的 /api/status，本页只探 robots 放行的 /v1/models（不带 key 回 401 即为存活证据）",
+        "速率与稳定性以实测为准，建议先小额充值试跑"
+      ],
+      "community": []
     }
   ]
 }
