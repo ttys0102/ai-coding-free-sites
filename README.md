@@ -15,7 +15,7 @@
   <a href="https://gorouter.app/sign-up?aff=eZeS"><b>GoRouter 注册</b></a> ·
   <a href="https://api.justwoker.icu/register?aff=kTKc"><b>JustDoWork 注册</b></a> ·
   <a href="https://workbuddy.ai/invite?code=J3YMXR29"><b>WorkBuddy 注册</b></a> ·
-  <a href="https://your-endpoint.example.com/r/T8KiaeGU"><b>DSH API 注册</b></a>
+  <a href="https://your-endpoint.example.com/r/T8KiaeGU"><b>removed 注册</b></a>
 </p>
 
 <p align="center"><a href="https://ttys0102.github.io/ai-coding-free-sites/compare/">📊 按次 vs 按量折算横评</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/status/">🩺 可用性历史</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/changelog/">🗓 变动日志</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/feed.xml">🔔 Atom 订阅</a></p>
@@ -31,7 +31,7 @@
 | **GoRouter** | 🟢 在线 | **$70** | 注册 $50 + 本页邀请 $20 | 支持签到 | Anthropic + OpenAI | 2 个可查 | [GitHub 注册 →](https://gorouter.app/sign-up?aff=eZeS) |
 | **JustDoWork** | 🟢 在线 | **≈$92** | 注册 $70 + 首签 ≈$22 | ≈$22/天 | Anthropic + OpenAI | 需登录查看 | [GitHub 注册 →](https://api.justwoker.icu/register?aff=kTKc) |
 | **WorkBuddy** | 🟢 在线 | **≈2100 积分** | 注册 2000 积分 + 首签 ≈100 积分 | ≈100 积分/天 | 桌面客户端 | 需登录查看 | [点此注册 →](https://workbuddy.ai/invite?code=J3YMXR29) |
-| **DSH API** | 🟢 在线 | 站内公示 | — | — | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://your-endpoint.example.com/r/T8KiaeGU) |
+| **removed** | 🟢 在线 | 站内公示 | — | — | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://your-endpoint.example.com/r/T8KiaeGU) |
 
 > 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-09-29 12:49 UTC`。
 >
@@ -608,11 +608,11 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 ---
 
-### 🟢 DSH API
+### 🟢 removed
 
 > 中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic
 
-<a href="https://your-endpoint.example.com/r/T8KiaeGU"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-DSH%20API-brightgreen?style=for-the-badge" alt="注册 DSH API"></a>
+<a href="https://your-endpoint.example.com/r/T8KiaeGU"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-DSH%20API-brightgreen?style=for-the-badge" alt="注册 removed"></a>
 
 **为什么值得注册**
 
@@ -663,9 +663,9 @@ model = "<登录后台查看可用模型名>"
 model_provider = "removed"
 
 [model_providers.removed]
-name = "DSH API"
+name = "removed"
 base_url = "https://your-endpoint.example.com/v1"
-env_key = "DSHAPI_API_KEY"
+env_key = "removed_API_KEY"
 wire_api = "chat"
 ```
 
