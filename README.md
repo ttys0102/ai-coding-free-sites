@@ -18,6 +18,14 @@
   <a href="https://your-endpoint.example.com/r/T8KiaeGU"><b>removed 注册</b></a>
 </p>
 
+
+> ### 🔗 本站作者自用的中转站
+>
+> **[Sample Gateway](https://your-endpoint.example.com/)** — 一个 [OI] 兼容端点统管 Claude / GPT / Gemini / Grok。
+> 注册只需 QQ 邮箱，无需邀请码、无需外币卡；按量计费，输入输出分开计价，倍率在控制台公开。
+> [[CC] 改两行环境变量即可接入 →](https://your-endpoint.example.com/)
+
+
 <p align="center"><a href="https://ttys0102.github.io/ai-coding-free-sites/compare/">📊 按次 vs 按量折算横评</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/status/">🩺 可用性历史</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/changelog/">🗓 变动日志</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/feed.xml">🔔 Atom 订阅</a></p>
 
 ---
@@ -809,3 +817,20 @@ npm run check     # 校验链接是否还活着
 <sub>关键词：Claude Code 免费 · Claude Code 中转 · Codex 中转 · Codex 公益站 · AI API 中转站 · 公益站 · 免费 API 额度 · 每日免费额度 · claude-opus-5 API · New API · AgentRouter · TaBiAI · GoRouter · JustDoWork · claude-opus-5 按次计费 · WorkBuddy · WorkBuddy 邀请码 · AI Agent 免费积分</sub>
 
 <!-- 本文件由 scripts/build.mjs 自动生成，请修改 data/sites.json 或 scripts/lib/render-readme.mjs -->
+
+---
+
+### 关于本站作者使用的中转站
+
+本站整理的中转站里，我长期自用的是 **[Sample Gateway](https://your-endpoint.example.com/)**：
+
+- **双协议兼容** — [OI] 与 Anthropic 同时支持，[CC] / Codex 零改造
+- **注册门槛低** — QQ 邮箱即可，无需邀请码、无需手机号、无需外币卡
+- **计费透明** — 按量计费，输入输出分开计价，分组与模型倍率在控制台公开
+- **可审计** — 基于开源 Sub2API 面板，每笔调用扣费可明细查询
+- **起充低** — 人民币 10 元起，可以先小额试
+
+👉 **https://your-endpoint.example.com/**
+
+> 说明：个人部署的第三方 API 转发服务，非上游厂商官方产品。建议按实际用量充值，避免一次性大额预付；重要业务请自备备份线路。
+
