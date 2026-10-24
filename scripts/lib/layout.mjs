@@ -84,6 +84,8 @@ export function pageShell({ meta, css, title, desc, canonical, base = '', curren
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${esc(canonical)}">
+<meta property="og:image" content="https://1261398983.github.io/ai-api-guide/poster-official.png">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="${esc(canonical)}">
 <link rel="alternate" type="application/atom+xml" title="变动日志" href="${esc(feed)}">
