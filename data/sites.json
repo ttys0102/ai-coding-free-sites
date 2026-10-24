@@ -342,7 +342,7 @@
         "approx": false,
         "note": "按量计费（人民币），注册不发赠额；国模分组 0.08x（官网价 8%）。"
       },
-      "signupUrl": "https://your-endpoint.example.com/r/T8KiaeGU",
+      "signupUrl": "",
       "homeUrl": "https://your-endpoint.example.com",
       "docsUrl": null,
       "statusApi": "https://your-endpoint.example.com/v1/models",
