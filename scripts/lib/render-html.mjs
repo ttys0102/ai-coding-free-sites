@@ -249,7 +249,7 @@ document.querySelectorAll('.copy').forEach(function (btn) {
     live,
     base: '',
     current: '',
-    title: `${meta.title} — ${meta.tagline}`,
+    title: `${meta.shortTitle ?? meta.title} — 免费额度与中转清单`,
     desc,
     canonical: meta.pagesUrl,
     jsonLd: [itemList, faqLd(FAQ)],

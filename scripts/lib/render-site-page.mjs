@@ -138,7 +138,7 @@ export function renderSitePage({ meta, site, snap, live, css, history, siblings 
   const route = signupRoute(snap);
   const shut = route.state === 'closed';
   const url = `${meta.pagesUrl}sites/${site.id}/`;
-  const title = `${site.name} 免费额度 / 邀请链接 / Claude Code 配置 — ${meta.title}`;
+  const title = `${site.name} 免费额度 / Claude Code 配置 — ${meta.shortTitle ?? meta.title}`;
   const desc = `${site.name}：${site.subtitle}${
     shut ? '。⚠ 站点接口自报已暂停新用户注册' : p.firstDay != null ? `。首日可得 ${usd(p.firstDay, p.approx, p.unit)}${breakdown(p) ? `（${breakdown(p)}）` : ''}` : ''
   }。含实时在线状态、模型价格、Claude Code / Codex 接入配置与踩坑清单，数据快照 ${fmt(snap?.checkedAt)}。`;
