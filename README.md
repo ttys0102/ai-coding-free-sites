@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-6%20%E4%B8%AA-blue" alt="收录站点">
   <img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF-5%2F6-orange" alt="在线">
   <img src="https://img.shields.io/badge/%E9%A6%96%E6%97%A5%E5%8F%AF%E5%BE%97-%E6%9C%80%E9%AB%98%20%24175-success" alt="首日可得">
-  <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--09--29%2012.49%20UTC-informational" alt="数据更新">
+  <img src="https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0-2026--10--24%2001.40%20UTC-informational" alt="数据更新">
 </p>
 
 <p align="center">
@@ -15,16 +15,8 @@
   <a href="https://gorouter.app/sign-up?aff=eZeS"><b>GoRouter 注册</b></a> ·
   <a href="https://api.justwoker.icu/register?aff=kTKc"><b>JustDoWork 注册</b></a> ·
   <a href="https://workbuddy.ai/invite?code=J3YMXR29"><b>WorkBuddy 注册</b></a> ·
-  <a href=""><b>removed 注册</b></a>
+  <a href="https://your-endpoint.example.com/r/T8KiaeGU"><b>removed 注册</b></a>
 </p>
-
-
-> ### 🔗 本站作者自用的中转站
->
-> **[Sample Gateway]()** — 一个 [OI] 兼容端点统管 Claude / GPT / Gemini / Grok。
-> 注册只需 QQ 邮箱，无需邀请码、无需外币卡；按量计费，输入输出分开计价，倍率在控制台公开。
-> [[CC] 改两行环境变量即可接入 →]()
-
 
 <p align="center"><a href="https://ttys0102.github.io/ai-coding-free-sites/compare/">📊 按次 vs 按量折算横评</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/status/">🩺 可用性历史</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/changelog/">🗓 变动日志</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/feed.xml">🔔 Atom 订阅</a></p>
 
@@ -39,9 +31,9 @@
 | **GoRouter** | 🟢 在线 | **$70** | 注册 $50 + 本页邀请 $20 | 支持签到 | Anthropic + OpenAI | 2 个可查 | [GitHub 注册 →](https://gorouter.app/sign-up?aff=eZeS) |
 | **JustDoWork** | 🟢 在线 | **≈$92** | 注册 $70 + 首签 ≈$22 | ≈$22/天 | Anthropic + OpenAI | 需登录查看 | [GitHub 注册 →](https://api.justwoker.icu/register?aff=kTKc) |
 | **WorkBuddy** | 🟢 在线 | **≈2100 积分** | 注册 2000 积分 + 首签 ≈100 积分 | ≈100 积分/天 | 桌面客户端 | 需登录查看 | [点此注册 →](https://workbuddy.ai/invite?code=J3YMXR29) |
-| **removed** | 🟢 在线 | 站内公示 | — | — | Anthropic + OpenAI | 需登录查看 | [点此注册 →]() |
+| **removed** | 🟢 在线 | 站内公示 | — | — | Anthropic + OpenAI | 需登录查看 | [点此注册 →](https://your-endpoint.example.com/r/T8KiaeGU) |
 
-> 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-09-29 12:49 UTC`。
+> 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-10-24 01:40 UTC`。
 >
 > 5 个按美元计价、且还收新用户的站全注册一遍，第一天手上大约有 **$457** 额度可用；WorkBuddy 另发 ≈2100 积分，是站内积分、与美元没有公开换算，未计入这个合计。
 >
@@ -88,12 +80,12 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 675 小时没抓到新数据，下列信息为 `2026-09-01 14:01 UTC` 的快照
+- ⚠ 接口已连续 1260 小时没抓到新数据，下列信息为 `2026-09-01 14:01 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260901-138138e7`
 - 邀请他人可得：**$50**
 - 登录方式：GitHub / LinuxDO
-- 接口延迟：241 ms
+- 接口延迟：331 ms
 
 **镜像 / 备用入口**
 
@@ -226,13 +218,13 @@ curl -s https://agentrouter.org/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 572 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
+- ⚠ 接口已连续 1157 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
 - 站点名称：**TaBiAI**
 - 面板版本：`init-20260817-f880a343`
 - 每日签到：✅
 - 开放注册：✅（站点关掉了邮箱密码注册，得用 GitHub 登录建号（防批量注册的常规做法）。）
 - 登录方式：GitHub / 账号密码
-- 接口延迟：19472 ms
+- 接口延迟：3784 ms
 
 **当前可用模型**
 
@@ -348,13 +340,13 @@ curl -s https://tabitoken.com/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 572 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
+- ⚠ 接口已连续 1157 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
 - 站点名称：**GoRouter**
 - 面板版本：`init-20260813-3cd90886`
 - 每日签到：✅
 - 开放注册：✅（站点关掉了邮箱密码注册，得用 GitHub 登录建号（防批量注册的常规做法）。）
 - 登录方式：GitHub / 账号密码
-- 接口延迟：19912 ms
+- 接口延迟：363 ms
 
 **当前可用模型**
 
@@ -475,7 +467,7 @@ curl -s https://gorouter.app/v1/chat/completions \
 - 开放注册：✅（站点关掉了邮箱密码注册，得用 GitHub 登录建号（防批量注册的常规做法）。）
 - 登录方式：GitHub / 账号密码
 - GitHub 账号需满 **365 天**
-- 接口延迟：662 ms
+- 接口延迟：421 ms
 
 > 该站模型清单需登录后台查看，注册后在「模型价格」页确认。
 
@@ -580,7 +572,7 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- 接口延迟：4736 ms
+- 接口延迟：2077 ms
 
 > WorkBuddy 是成品客户端而不是 API 中转站：模型内置、按任务类型调度，不对外开放 Base URL 与模型价格页，也就没有可抓取的模型清单；积分按任务消耗，以客户端「个人中心 → 使用量」为准。
 
@@ -620,7 +612,7 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 > 中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic
 
-<a href=""><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-DSH%20API-brightgreen?style=for-the-badge" alt="注册 removed"></a>
+<a href="https://your-endpoint.example.com/r/T8KiaeGU"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-removed-brightgreen?style=for-the-badge" alt="注册 removed"></a>
 
 **为什么值得注册**
 
@@ -632,7 +624,7 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- 接口延迟：699 ms
+- 接口延迟：846 ms
 
 > 可用模型：deepseek-v4-flash $1/$4、deepseek-v4.1-flash $1/$4、deepseek-v4-pro $4.5/$13.5、glm-5.2 $8/$28、glm-5.3 $8/$28、glm-5.3-flash $0.8/$2.8、kimi-k2.8 $20/$100、kimi-k3 $20/$100、minimax-m3 $2.1/$8.4、hy3 $1/$4、hy4 $6/$18（单位：美元 / 百万 token，以上是未乘分组倍率的标价；国模分组 0.08x 后即为实付）。
 
@@ -673,7 +665,7 @@ model_provider = "removed"
 [model_providers.removed]
 name = "removed"
 base_url = "https://your-endpoint.example.com/v1"
-env_key = "removed_API_KEY"
+env_key = "97WL_API_KEY"
 wire_api = "chat"
 ```
 
@@ -719,7 +711,7 @@ curl -s https://your-endpoint.example.com/v1/chat/completions \
 
 ## 🔔 额度变了，这里会通知你
 
-CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目前已攒下 169 个样本、覆盖约 39.2 天。额度调整、掉线与恢复、模型上下线、价格变动都会自动记一条：
+CI 每 6 小时抓一次各站接口，与上一次快照逐字段比对，目前已攒下 170 个样本、覆盖约 63.7 天。额度调整、掉线与恢复、模型上下线、价格变动都会自动记一条：
 
 - 点仓库右上角 **Watch → Custom → Releases**：有重要变动时 GitHub 直接发邮件
 - 订阅 [Atom feed](https://ttys0102.github.io/ai-coding-free-sites/feed.xml)：RSS 阅读器 / Feedly / Telegram 机器人都能读
@@ -817,20 +809,3 @@ npm run check     # 校验链接是否还活着
 <sub>关键词：Claude Code 免费 · Claude Code 中转 · Codex 中转 · Codex 公益站 · AI API 中转站 · 公益站 · 免费 API 额度 · 每日免费额度 · claude-opus-5 API · New API · AgentRouter · TaBiAI · GoRouter · JustDoWork · claude-opus-5 按次计费 · WorkBuddy · WorkBuddy 邀请码 · AI Agent 免费积分</sub>
 
 <!-- 本文件由 scripts/build.mjs 自动生成，请修改 data/sites.json 或 scripts/lib/render-readme.mjs -->
-
----
-
-### 关于本站作者使用的中转站
-
-本站整理的中转站里，我长期自用的是 **[Sample Gateway]()**：
-
-- **双协议兼容** — [OI] 与 Anthropic 同时支持，[CC] / Codex 零改造
-- **注册门槛低** — QQ 邮箱即可，无需邀请码、无需手机号、无需外币卡
-- **计费透明** — 按量计费，输入输出分开计价，分组与模型倍率在控制台公开
-- **可审计** — 基于开源 Sub2API 面板，每笔调用扣费可明细查询
-- **起充低** — 人民币 10 元起，可以先小额试
-
-👉 **https://your-endpoint.example.com/**
-
-> 说明：个人部署的第三方 API 转发服务，非上游厂商官方产品。建议按实际用量充值，避免一次性大额预付；重要业务请自备备份线路。
-
