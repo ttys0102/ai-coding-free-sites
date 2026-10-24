@@ -1,4 +1,13 @@
 /**
+ * 每页底部的端点说明块（写进模板，避免刷新数据时被覆盖）。
+ */
+const ENDPOINT_CTA = `<div style="max-width:900px;margin:40px auto 0;padding:18px 22px;border:1px solid #24304a;border-radius:12px;background:#0e1524;font:14px/1.75 -apple-system,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;color:#c7d3e8">
+  <strong style="color:#e8eef9">本文示例所用的 API 端点</strong>：<code style="background:#16203a;padding:1px 6px;border-radius:4px">https://your-endpoint.example.com/v1</code><br>
+  QQ 邮箱即可注册，无需邀请码，按量计费；注册时在推广码栏填写渠道码可领额外额度。
+  <a href="" style="color:#5b9dff;text-decoration:none;font-weight:600">→ 注册入口</a>
+  · <a href="https://1261398983.github.io/ai-api-guide/" style="color:#8fb8e8;text-decoration:none">配置指南</a>
+</div>`;
+/**
  * 落地页公用外壳：head / 导航 / 页脚 / JSON-LD。
  *
  * 站点详情页在 docs/sites/<id>/，比根目录深两层，所以站内链接一律用 base 前缀拼，
@@ -82,6 +91,7 @@ ${body}
       meta.repoUrl.replace(/^https:\/\//, ''),
     )}</a> 自动生成 · <a href="${esc(feed)}">Atom 订阅</a></p>
   </footer>
+  ${ENDPOINT_CTA}
 </div>
 </body>
 </html>
