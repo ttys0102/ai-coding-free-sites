@@ -22,6 +22,20 @@ export const esc = (s) =>
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
 
+/** 按显示宽度截断（中文 2，英文 1）。SERP 摘要约 155–160 宽，超了会被搜索引擎截断。 */
+export function clampDesc(input, max = 155) {
+  const s = String(input ?? '');
+  let width = 0;
+  let out = '';
+  for (const ch of s) {
+    const cw = ch.charCodeAt(0) > 127 ? 2 : 1;
+    if (width + cw > max - 1) { out += '…'; return out; }
+    width += cw;
+    out += ch;
+  }
+  return out;
+}
+
 export function fmt(iso) {
   if (!iso) return '未知';
   const d = new Date(iso);
@@ -64,7 +78,7 @@ export function pageShell({ meta, css, title, desc, canonical, base = '', curren
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
-<meta name="description" content="${esc(desc)}">
+<meta name="description" content="${esc(clampDesc(desc))}">
 <meta name="keywords" content="${esc((meta.keywords ?? []).join(','))}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="${esc(title)}">
