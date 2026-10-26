@@ -10,12 +10,12 @@
 </p>
 
 <p align="center">
-  <a href="https://agentrouter.org/register?aff=meOs"><b>AgentRouter 注册</b></a> ·
-  <a href="https://tabitoken.com/sign-up?aff=GJVG"><b>TaBiAI 注册</b></a> ·
-  <a href="https://gorouter.app/sign-up?aff=eZeS"><b>GoRouter 注册</b></a> ·
-  <a href="https://api.justwoker.icu/register?aff=kTKc"><b>JustDoWork 注册</b></a> ·
-  <a href="https://workbuddy.ai/invite?code=J3YMXR29"><b>WorkBuddy 注册</b></a> ·
-  <a href=""><b>removed 注册</b></a>
+  <a href="https://agentrouter.org/register?aff=meOs" rel="nofollow noopener"><b>AgentRouter 注册</b></a> ·
+  <a href="https://tabitoken.com/sign-up?aff=GJVG" rel="nofollow noopener"><b>TaBiAI 注册</b></a> ·
+  <a href="https://gorouter.app/sign-up?aff=eZeS" rel="nofollow noopener"><b>GoRouter 注册</b></a> ·
+  <a href="https://api.justwoker.icu/register?aff=kTKc" rel="nofollow noopener"><b>JustDoWork 注册</b></a> ·
+  <a href="https://workbuddy.ai/invite?code=J3YMXR29" rel="nofollow noopener"><b>WorkBuddy 注册</b></a> ·
+  <a href="" rel="nofollow noopener"><b>removed 注册</b></a>
 </p>
 
 <p align="center"><a href="https://1261398983.github.io/ai-coding-free-sites/compare/">📊 按次 vs 按量折算横评</a> · <a href="https://1261398983.github.io/ai-coding-free-sites/status/">🩺 可用性历史</a> · <a href="https://1261398983.github.io/ai-coding-free-sites/changelog/">🗓 变动日志</a> · <a href="https://1261398983.github.io/ai-coding-free-sites/feed.xml">🔔 Atom 订阅</a></p>
@@ -62,7 +62,7 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 
 > AI Coding 公益站 · 注册即送额度，签到每日续命
 
-<a href="https://agentrouter.org/register?aff=meOs"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-AgentRouter-brightgreen?style=for-the-badge" alt="注册 AgentRouter"></a>
+<a href="https://agentrouter.org/register?aff=meOs" rel="nofollow noopener"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-AgentRouter-brightgreen?style=for-the-badge" alt="注册 AgentRouter"></a>
 
 **为什么值得注册**
 
@@ -201,7 +201,7 @@ curl -s https://agentrouter.org/v1/chat/completions \
 
 > New API 中转站 · 注册送 $100，本页邀请码再加 $20，专供 Claude Opus
 
-<a href="https://tabitoken.com/sign-up?aff=GJVG"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-TaBiAI-brightgreen?style=for-the-badge" alt="注册 TaBiAI"></a>
+<a href="https://tabitoken.com/sign-up?aff=GJVG" rel="nofollow noopener"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-TaBiAI-brightgreen?style=for-the-badge" alt="注册 TaBiAI"></a>
 
 **为什么值得注册**
 
@@ -323,7 +323,7 @@ curl -s https://tabitoken.com/v1/chat/completions \
 
 > New API 中转站 · 注册送 $50，本页邀请码再加 $20，按次计费里最便宜的一档
 
-<a href="https://gorouter.app/sign-up?aff=eZeS"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-GoRouter-brightgreen?style=for-the-badge" alt="注册 GoRouter"></a>
+<a href="https://gorouter.app/sign-up?aff=eZeS" rel="nofollow noopener"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-GoRouter-brightgreen?style=for-the-badge" alt="注册 GoRouter"></a>
 
 **为什么值得注册**
 
@@ -443,7 +443,7 @@ curl -s https://gorouter.app/v1/chat/completions \
 
 > New API 中转站 · GitHub 一键登录，支持签到与绘图
 
-<a href="https://api.justwoker.icu/register?aff=kTKc"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-JustDoWork-brightgreen?style=for-the-badge" alt="注册 JustDoWork"></a>
+<a href="https://api.justwoker.icu/register?aff=kTKc" rel="nofollow noopener"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-JustDoWork-brightgreen?style=for-the-badge" alt="注册 JustDoWork"></a>
 
 **为什么值得注册**
 
@@ -555,7 +555,7 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 > 腾讯 AI 智能体桌面客户端 · 新用户注册即享 2000 积分，邀请一位好友得 100 积分
 
-<a href="https://workbuddy.ai/invite?code=J3YMXR29"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-WorkBuddy-brightgreen?style=for-the-badge" alt="注册 WorkBuddy"></a>
+<a href="https://workbuddy.ai/invite?code=J3YMXR29" rel="nofollow noopener"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-WorkBuddy-brightgreen?style=for-the-badge" alt="注册 WorkBuddy"></a>
 
 **为什么值得注册**
 
@@ -612,7 +612,7 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 > 中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic
 
-<a href=""><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-removed-brightgreen?style=for-the-badge" alt="注册 removed"></a>
+<a href="" rel="nofollow noopener"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-removed-brightgreen?style=for-the-badge" alt="注册 removed"></a>
 
 **为什么值得注册**
 
