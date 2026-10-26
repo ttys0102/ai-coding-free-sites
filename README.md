@@ -15,7 +15,7 @@
   <a href="https://gorouter.app/sign-up?aff=eZeS"><b>GoRouter 注册</b></a> ·
   <a href="https://api.justwoker.icu/register?aff=kTKc"><b>JustDoWork 注册</b></a> ·
   <a href="https://workbuddy.ai/invite?code=J3YMXR29"><b>WorkBuddy 注册</b></a> ·
-  <a href=""><b>removed 注册</b></a>
+  <a href="" rel="nofollow noopener"><b>removed 注册</b></a>
 </p>
 
 <p align="center"><a href="https://1261398983.github.io/ai-coding-free-sites/compare/">📊 按次 vs 按量折算横评</a> · <a href="https://1261398983.github.io/ai-coding-free-sites/status/">🩺 可用性历史</a> · <a href="https://1261398983.github.io/ai-coding-free-sites/changelog/">🗓 变动日志</a> · <a href="https://1261398983.github.io/ai-coding-free-sites/feed.xml">🔔 Atom 订阅</a></p>
@@ -612,7 +612,7 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 > 中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic
 
-<a href=""><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-removed-brightgreen?style=for-the-badge" alt="注册 removed"></a>
+<a href="" rel="nofollow noopener"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-removed-brightgreen?style=for-the-badge" alt="注册 removed"></a>
 
 **为什么值得注册**
 
