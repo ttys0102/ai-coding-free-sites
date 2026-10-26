@@ -98,7 +98,7 @@ function configBlocks(site, snap) {
     out.push(
       `<p class="hint">${esc(s.note ?? '注册登录后在站内后台查看接入方式。')}</p>`,
       s.steps?.length ? `<ol class="hl">${s.steps.map((t) => `<li>${esc(t)}</li>`).join('')}</ol>` : '',
-      s.dashboardUrl ? `<p><a class="btn btn-ghost" href="${esc(s.dashboardUrl)}" target="_blank" rel="noopener">打开控制台</a></p>` : '',
+      s.dashboardUrl ? `<p><a class="btn btn-ghost" href="${esc(s.dashboardUrl)}" target="_blank" rel="noopener nofollow">打开控制台</a></p>` : '',
     );
   }
   return `<section id="config"><h2>接入配置</h2>${out.join('\n')}</section>`;
@@ -163,7 +163,7 @@ export function renderSitePage({ meta, site, snap, live, css, history, siblings 
       <span class="pill">数据更新 <b>${esc(fmt(snap?.checkedAt))}</b></span>
     </div>
     <div class="cta-row">
-      <a class="btn ${shut ? 'btn-ghost' : 'btn-primary'}" href="${esc(site.signupUrl)}" target="_blank" rel="noopener">${
+      <a class="btn ${shut ? 'btn-ghost' : 'btn-primary'}" href="${esc(site.signupUrl)}" target="_blank" rel="noopener nofollow">${
         shut ? `打开 ${esc(site.name)}（已停注）→` : `免费注册 ${esc(site.name)} →`
       }</a>
       <a class="btn btn-ghost" href="#config">直接看接入配置</a>
@@ -190,7 +190,7 @@ export function renderSitePage({ meta, site, snap, live, css, history, siblings 
   ${
     (site.mirrors ?? []).length
       ? `<section><h2>镜像 / 备用入口</h2><ul class="hl">${site.mirrors
-          .map((m) => `<li>${esc(m.label ?? '备用域名')}：<a href="${esc(m.signupUrl)}" target="_blank" rel="noopener">${esc(m.homeUrl)}</a></li>`)
+          .map((m) => `<li>${esc(m.label ?? '备用域名')}：<a href="${esc(m.signupUrl)}" target="_blank" rel="noopener nofollow">${esc(m.homeUrl)}</a></li>`)
           .join('')}</ul></section>`
       : ''
   }

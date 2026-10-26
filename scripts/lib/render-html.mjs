@@ -80,12 +80,12 @@ function siteCard(site, snap) {
         <ul class="hl">${(site.highlights ?? []).slice(0, 3).map((h) => `<li>${esc(h)}</li>`).join('')}</ul>
         ${accessBlock(site, snap)}
         <div class="mt-auto"></div>
-        <a class="btn ${shut ? 'btn-ghost' : 'btn-primary'}" href="${esc(site.signupUrl)}" target="_blank" rel="noopener">${
+        <a class="btn ${shut ? 'btn-ghost' : 'btn-primary'}" href="${esc(site.signupUrl)}" target="_blank" rel="noopener nofollow">${
           shut ? `打开 ${esc(site.name)}（已停注）→` : `免费注册 ${esc(site.name)} →`
         }</a>
         <a class="btn btn-ghost" href="sites/${esc(site.id)}/">额度明细 / 接入配置 / 可用性 →</a>
         ${(site.mirrors ?? [])
-          .map((m) => `<a class="btn btn-ghost" href="${esc(m.signupUrl)}" target="_blank" rel="noopener">${esc(m.label ?? '备用入口')}</a>`)
+          .map((m) => `<a class="btn btn-ghost" href="${esc(m.signupUrl)}" target="_blank" rel="noopener nofollow">${esc(m.label ?? '备用入口')}</a>`)
           .join('')}
       </article>`;
 }
@@ -187,7 +187,7 @@ export function renderHtml({ meta, sites, live, css, groups = [], history }) {
       ${
         // 一个还收人的站都没有时，首屏主按钮不能继续喊「立即免费注册」——点进去也注册不了
         first
-          ? `<a class="btn btn-primary" href="${esc(first.signupUrl)}" target="_blank" rel="noopener">立即免费注册 ${esc(first.name)} →</a>`
+          ? `<a class="btn btn-primary" href="${esc(first.signupUrl)}" target="_blank" rel="noopener nofollow">立即免费注册 ${esc(first.name)} →</a>`
           : `<a class="btn btn-primary" href="#sites">收录的站现在都停注了，看看各站状态 →</a>`
       }
       <a class="btn btn-ghost" href="compare/">哪个站最耐用？按次 vs 按量 →</a>
