@@ -8,6 +8,8 @@ Claude等顶级AI大模型公益站精选的自动变动记录：站点上下线
 
 ## 2026-10-28
 
+- 🟢 GoRouter 恢复在线 <sub>12:58 UTC</sub>
+- 🟢 removed 恢复在线 <sub>12:58 UTC</sub>
 - 🔴 GoRouter 探测不到了：注册页与公开接口都没响应 <sub>05:44 UTC</sub>
 - 🔴 removed 探测不到了：注册页与公开接口都没响应 <sub>05:44 UTC</sub>
 
