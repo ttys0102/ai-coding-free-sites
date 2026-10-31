@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-31T12:34:33.793Z",
+  "generatedAt": "2026-10-31T21:37:40.887Z",
   "sites": [
     {
       "id": "agentrouter",
-      "checkedAt": "2026-10-31T12:33:55.431Z",
+      "checkedAt": "2026-10-31T21:37:02.493Z",
       "online": true,
-      "latencyMs": 303,
+      "latencyMs": 316,
       "error": "invalid json",
       "systemName": "Agent Router",
       "version": "init-20260901-138138e7",
@@ -147,7 +147,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1360,
+        "ms": 1255,
         "attempts": 1
       },
       "mirrors": [
@@ -177,10 +177,10 @@
     },
     {
       "id": "tabitoken",
-      "checkedAt": "2026-10-31T12:33:54.326Z",
+      "checkedAt": "2026-10-31T21:37:02.009Z",
       "apiOk": false,
       "pricingOk": false,
-      "latencyMs": 152,
+      "latencyMs": 224,
       "error": "HTTP 500",
       "systemName": "TaBiAI",
       "version": "init-20260817-f880a343",
@@ -272,7 +272,7 @@
       "signup": {
         "status": 403,
         "ok": false,
-        "ms": 349,
+        "ms": 340,
         "attempts": 1
       },
       "mirrors": [],
@@ -294,10 +294,10 @@
     },
     {
       "id": "gorouter",
-      "checkedAt": "2026-10-31T12:34:33.785Z",
+      "checkedAt": "2026-10-31T21:37:40.879Z",
       "apiOk": false,
       "pricingOk": false,
-      "latencyMs": 19526,
+      "latencyMs": 19999,
       "error": "HTTP 404",
       "systemName": "GoRouter",
       "version": "init-20260813-3cd90886",
@@ -355,7 +355,7 @@
       "signup": {
         "status": 403,
         "ok": false,
-        "ms": 382,
+        "ms": 383,
         "attempts": 1
       },
       "mirrors": [],
@@ -377,9 +377,9 @@
     },
     {
       "id": "justdowork",
-      "checkedAt": "2026-10-31T12:33:50.284Z",
+      "checkedAt": "2026-10-31T21:36:56.626Z",
       "online": true,
-      "latencyMs": 1159,
+      "latencyMs": 441,
       "error": null,
       "systemName": "JustDoWork",
       "version": "v1.0.0-rc.23",
@@ -405,7 +405,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1138,
+        "ms": 1062,
         "attempts": 1
       },
       "mirrors": [],
@@ -419,10 +419,10 @@
     },
     {
       "id": "workbuddy",
-      "checkedAt": "2026-10-31T12:33:51.155Z",
+      "checkedAt": "2026-10-31T21:36:58.460Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 2029,
+      "latencyMs": 2276,
       "error": null,
       "systemName": null,
       "version": null,
@@ -446,7 +446,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 2219,
+        "ms": 2257,
         "attempts": 1
       },
       "mirrors": [],
@@ -458,10 +458,10 @@
     },
     {
       "id": "removed",
-      "checkedAt": "2026-10-31T12:33:50.241Z",
+      "checkedAt": "2026-10-31T21:36:57.356Z",
       "apiOk": true,
       "pricingOk": false,
-      "latencyMs": 1114,
+      "latencyMs": 1170,
       "error": null,
       "systemName": null,
       "version": null,
@@ -485,7 +485,7 @@
       "signup": {
         "status": 200,
         "ok": true,
-        "ms": 1112,
+        "ms": 1158,
         "attempts": 1
       },
       "mirrors": [],
