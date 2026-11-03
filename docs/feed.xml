@@ -5,8 +5,16 @@
   <link rel="self" href="https://ttys0102.github.io/ai-coding-free-sites/feed.xml"/>
   <link href="https://ttys0102.github.io/ai-coding-free-sites/"/>
   <id>https://ttys0102.github.io/ai-coding-free-sites/</id>
-  <updated>2026-11-03T00:56:08.502Z</updated>
+  <updated>2026-11-03T14:07:36.848Z</updated>
   <author><name>Claude等顶级AI大模型公益站精选</name></author>
+  <entry>
+    <title>2026-11-03 · 1 项变动</title>
+    <link href="https://ttys0102.github.io/ai-coding-free-sites/changelog/#2026-11-03"/>
+    <id>tag:ttys0102.github.io,2026-11-03:changelog</id>
+    <updated>2026-11-03T14:07:36.848Z</updated>
+    <summary>JustDoWork 探测不到了：注册页与公开接口都没响应</summary>
+    <content type="html">&lt;ul&gt;&lt;li&gt;🔴 JustDoWork 探测不到了：注册页与公开接口都没响应&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>2026-11-02 · 2 项变动</title>
     <link href="https://ttys0102.github.io/ai-coding-free-sites/changelog/#2026-11-02"/>
@@ -318,13 +326,5 @@
     <updated>2026-09-01T16:41:56.046Z</updated>
     <summary>TaBiAI 下线模型：claude-opus-4-8、claude-opus-4-8-thinking（另有 1 项变动）</summary>
     <content type="html">&lt;ul&gt;&lt;li&gt;➖ TaBiAI 下线模型：claude-opus-4-8、claude-opus-4-8-thinking&lt;/li&gt;&lt;li&gt;➖ GoRouter 下线模型：claude-opus-4-8、claude-opus-4-8-thinking&lt;/li&gt;&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>2026-08-30 · 2 项变动</title>
-    <link href="https://ttys0102.github.io/ai-coding-free-sites/changelog/#2026-08-30"/>
-    <id>tag:ttys0102.github.io,2026-08-30:changelog</id>
-    <updated>2026-08-30T10:21:22.646Z</updated>
-    <summary>新收录 GoRouter：注册送 $50，邀请再加 $20（另有 1 项变动）</summary>
-    <content type="html">&lt;ul&gt;&lt;li&gt;🆕 新收录 GoRouter：注册送 $50，邀请再加 $20&lt;/li&gt;&lt;li&gt;🆕 新收录 TaBiAI：注册送 $100，邀请再加 $20&lt;/li&gt;&lt;/ul&gt;</content>
   </entry>
 </feed>
