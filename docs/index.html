@@ -15,7 +15,6 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://1261398983.github.io/ai-coding-free-sites/">
 <link rel="alternate" type="application/atom+xml" title="变动日志" href="https://1261398983.github.io/ai-coding-free-sites/feed.xml">
-<script type="application/ld+json">[{"@context":"https://schema.org","@type":"ItemList","name":"Claude等顶级AI大模型公益站精选","numberOfItems":6,"itemListElement":[{"@type":"ListItem","position":1,"name":"AgentRouter","description":"AI Coding 公益站 · 注册即送额度，签到每日续命","url":"https://1261398983.github.io/ai-coding-free-sites/sites/agentrouter/"},{"@type":"ListItem","position":2,"name":"TaBiAI","description":"New API 中转站 · 注册送 $100，本页邀请码再加 $20，专供 Claude Opus","url":"https://1261398983.github.io/ai-coding-free-sites/sites/tabitoken/"},{"@type":"ListItem","position":3,"name":"GoRouter","description":"New API 中转站 · 注册送 $50，本页邀请码再加 $20，按次计费里最便宜的一档","url":"https://1261398983.github.io/ai-coding-free-sites/sites/gorouter/"},{"@type":"ListItem","position":4,"name":"JustDoWork","description":"New API 中转站 · GitHub 一键登录，支持签到与绘图","url":"https://1261398983.github.io/ai-coding-free-sites/sites/justdowork/"},{"@type":"ListItem","position":5,"name":"WorkBuddy","description":"腾讯 AI 智能体桌面客户端 · 新用户注册即享 2000 积分，邀请一位好友得 100 积分","url":"https://1261398983.github.io/ai-coding-free-sites/sites/workbuddy/"},{"@type":"ListItem","position":6,"name":"removed","description":"中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic","url":"https://1261398983.github.io/ai-coding-free-sites/sites/removed/"}]},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"注册完看不到额度？","acceptedAnswer":{"@type":"Answer","text":"公益站额度多在登录时结算，退出后重新登录一次通常就到账；余额短暂显示 $0 属于展示问题，稍后刷新即可。"}},{"@type":"Question","name":"Claude Code 报 401？","acceptedAnswer":{"@type":"Answer","text":"Anthropic 协议的 Base URL 不要带 /v1；再确认 Key 完整、模型名在站内可用清单里、客户端属于该站支持的类型。"}},{"@type":"Question","name":"返回 400 content blocked？","acceptedAnswer":{"@type":"Answer","text":"部分站点只放行中 / 英 / 法 / 德 / 俄，提示词混入其它语言会被上游拦截。"}},{"@type":"Question","name":"会不会顶掉我的 Claude 订阅登录？","acceptedAnswer":{"@type":"Answer","text":"会。环境变量优先级更高，想切回订阅登录就 unset ANTHROPIC_BASE_URL / ANTHROPIC_AUTH_TOKEN / ANTHROPIC_MODEL 后重开终端。"}}]}]</script>
 <style>
 /* Claude等顶级AI大模型公益站精选 — 落地页样式（手写，非生成物） */
 :root {
@@ -314,20 +313,16 @@ claude</code></pre>
         
       </article>
       <article class="card">
-        <h3><span class="dot up" title="在线"></span>removed</h3>
         <p class="desc">中转聚合站 · 国模分组 0.08x（官网价 8%），同一个 base URL 同时吃 OpenAI 与 Anthropic</p>
         
         <div class="tags"><span class="tag">中转站</span><span class="tag">低倍率</span><span class="tag">Claude Code</span><span class="tag">Codex</span><span class="tag">OpenAI 兼容</span><span class="tag">Anthropic 兼容</span></div>
         <dl class="kv"><dt>可用模型</dt><dd>登录后台查看</dd><dt>接口延迟</dt><dd>1954 ms</dd></dl>
         <ul class="hl"><li>国模分组 0.08x，就是官网定价的 8%；open ai pro 分组 0.22x</li><li>同一个 base URL 同时挂 OpenAI（/v1/models、/v1/chat/completions、/v1/responses）与 Anthropic（/v1/messages）两套协议，Claude Code 和 Codex CLI 不改代码都能直连</li><li>十一个可用模型：deepseek-v4-flash / v4.1-flash / pro、glm-5.2 / 5.3 / 5.3-flash、kimi-k2.8 / k3、minimax-m3、hy3 / hy4</li></ul>
-        <pre><code>export ANTHROPIC_BASE_URL=https://your-endpoint.example.com
 export ANTHROPIC_AUTH_TOKEN=你的 API Key
 export ANTHROPIC_MODEL=在站内模型列表中选择
 claude</code></pre>
         <button class="copy" type="button">复制配置</button>
         <div class="mt-auto"></div>
-        <a class="btn btn-primary" href="" target="_blank" rel="noopener nofollow">免费注册 removed →</a>
-        <a class="btn btn-ghost" href="sites/removed/">额度明细 / 接入配置 / 可用性 →</a>
         
       </article>
     </div>
@@ -383,9 +378,7 @@ document.querySelectorAll('.copy').forEach(function (btn) {
     <p>数据快照时间：2026-11-07 06:00 UTC · 由 <a href="https://github.com/ttys0102/ai-coding-free-sites">github.com/ttys0102/ai-coding-free-sites</a> 自动生成 · <a href="https://1261398983.github.io/ai-coding-free-sites/feed.xml">Atom 订阅</a></p>
   </footer>
   <div style="max-width:900px;margin:40px auto 0;padding:18px 22px;border:1px solid #24304a;border-radius:12px;background:#0e1524;font:14px/1.75 -apple-system,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;color:#c7d3e8">
-  <strong style="color:#e8eef9">本文示例所用的 API 端点</strong>：<code style="background:#16203a;padding:1px 6px;border-radius:4px">https://your-endpoint.example.com/v1</code><br>
   QQ 邮箱即可注册，无需邀请码，按量计费；注册时在推广码栏填写渠道码可领额外额度。
-  <a href="" style="color:#5b9dff;text-decoration:none;font-weight:600" rel="nofollow noopener">→ 注册入口</a>
   · <a href="https://1261398983.github.io/ai-api-guide/" style="color:#8fb8e8;text-decoration:none">配置指南</a> 
   · <a href="https://1261398983.github.io/ai-api-guide/tools.html" style="color:#8fb8e8;text-decoration:none">工具配置</a>
   · <a href="https://1261398983.github.io/ai-api-guide/streaming.html" style="color:#8fb8e8;text-decoration:none">流式排查</a>

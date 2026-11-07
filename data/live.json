@@ -455,45 +455,6 @@
       "dataStale": false,
       "staleFrom": null,
       "staleFields": []
-    },
-    {
-      "id": "removed",
-      "checkedAt": "2026-11-07T05:59:51.118Z",
-      "apiOk": true,
-      "pricingOk": false,
-      "latencyMs": 1954,
-      "error": null,
-      "systemName": null,
-      "version": null,
-      "registerOpen": null,
-      "passwordRegister": null,
-      "checkinEnabled": null,
-      "loginMethods": [],
-      "githubMinAccountAgeDays": null,
-      "quotaPerUnit": null,
-      "inviteeBonusUsd": null,
-      "inviterBonusUsd": null,
-      "topupEnabled": null,
-      "services": [],
-      "announcements": [],
-      "models": [],
-      "modelsSource": "login-required",
-      "defaults": {
-        "claude": null,
-        "openai": null
-      },
-      "signup": {
-        "status": 200,
-        "ok": true,
-        "ms": 1952,
-        "attempts": 1
-      },
-      "mirrors": [],
-      "probeBlocked": false,
-      "online": true,
-      "dataStale": false,
-      "staleFrom": null,
-      "staleFields": []
     }
   ]
 }
