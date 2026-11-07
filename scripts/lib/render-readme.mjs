@@ -141,7 +141,7 @@ function siteSection(site, snap) {
     '',
     `> ${site.subtitle}`,
     '',
-    `<a href="${site.signupUrl}" rel="nofollow noopener"><img src="${B('立即注册', site.name, 'brightgreen?style=for-the-badge')}" alt="注册 ${site.name}"></a>`,
+    `<a href="${site.signupUrl}" rel="nofollow noopener"><img src="${B('', site.name, 'brightgreen?style=for-the-badge')}" alt="注册 ${site.name}"></a>`,
     '',
     `**为什么值得注册**`,
     '',

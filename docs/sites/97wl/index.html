@@ -221,9 +221,9 @@ tr.shut td { color: var(--fg-dim); }
     <dl class="kv"><dt>接口延迟</dt><dd>1954 ms</dd><dt>数据快照</dt><dd>2026-11-07 05:59 UTC</dd></dl>
   </section>
 
-  <section><h2>为什么值得注册</h2><ul class="hl"><li>国模分组 0.08x，就是官网定价的 8%；open ai pro 分组 0.22x</li><li>同一个 base URL 同时挂 OpenAI（/v1/models、/v1/chat/completions、/v1/responses）与 Anthropic（/v1/messages）两套协议，Claude Code 和 Codex CLI 不改代码都能直连</li><li>十一个可用模型：deepseek-v4-flash / v4.1-flash / pro、glm-5.2 / 5.3 / 5.3-flash、kimi-k2.8 / k3、minimax-m3、hy3 / hy4</li><li>QQ 邮箱注册，支付宝 / 微信充值，余额不过期，国内直连不需代理</li><li>四个端点实测全通：1.61s / 2.19s / 2.37s / 3.94s</li></ul></section>
+  <section><h2>为什么值得注册</h2><ul class="hl"><li>国模分组 0.08x，就是官网定价的 8%；open ai pro 分组 0.22x</li><li>同一个 base URL 同时挂 OpenAI（/v1/models、/v1/chat/completions、/v1/responses）与 Anthropic（/v1/messages）两套协议，Claude Code 和 Codex CLI 不改代码都能直连</li><li>十一个可用模型：deepseek-v4-flash / v4.1-flash / pro、glm-5.2 / 5.3 / 5.3-flash、kimi-k2.8 / k3、minimax-m3、hy3 / hy4</li><li>邮箱注册，支付宝 / 微信充值，余额不过期，国内直连不需代理</li><li>四个端点实测全通：1.61s / 2.19s / 2.37s / 3.94s</li></ul></section>
   
-  <section><h2>注册要求</h2><ul class="hl"><li>从本页链接进入注册（带短链邀请），邀请关系在注册那一刻绑定</li><li>QQ 邮箱即可，不需要海外手机号或外币卡</li><li>登录后到「API 密钥」页建 key，到「可用渠道」页看分组倍率</li></ul></section>
+  <section><h2>注册要求</h2><ul class="hl"><li>从本页链接进入注册（带短链邀请），邀请关系在注册那一刻绑定</li><li>邮箱即可，不需要海外手机号或外币卡</li><li>登录后到「API 密钥」页建 key，到「可用渠道」页看分组倍率</li></ul></section>
   <section id="config"><h2>接入配置</h2><h3>Claude Code（Anthropic 兼容，Base URL 不带 <code>/v1</code>）</h3>
 export ANTHROPIC_AUTH_TOKEN=你在站点后台创建的 Key
 export ANTHROPIC_MODEL=&lt;登录后台查看可用模型名&gt;
@@ -234,7 +234,7 @@ npm install -g @anthropic-ai/claude-code@latest &amp;&amp; claude</code></pre><b
 env_key = &quot;97WL_API_KEY&quot;
 wire_api = &quot;chat&quot;</code></pre><button class="copy" type="button">复制配置</button>
       <h3>通用客户端（Cherry Studio / Cursor / OpenAI SDK）</h3>
-  <section><h2>如何继续拿额度</h2><ul class="hl"><li>邀请返佣 10%，不冻结、无上限、无每日发放上限</li><li>充值送额活动以站内公告为准</li></ul></section>
+  <section><h2>如何继续拿额度</h2><ul class="hl"><li> 10%，不冻结、无上限、无每日发放上限</li><li>充值送额活动以站内公告为准</li></ul></section>
   <section><h2>⚠️ 使用前必读</h2><ul class="hl"><li>按量计费而非免费额度：注册不送额度，需充值后使用</li><li>属链接包含邀请短链，非直接官网入口</li><li>面板不开放公开的 /api/status，本页只探 robots 放行的 /v1/models（不带 key 回 401 即为存活证据）</li><li>速率与稳定性以实测为准，建议先小额充值试跑</li></ul></section>
   <section><h2>最近 7 天可用性</h2><p class="hint">最近 7 天自动探测 17 次，在线 17 次（<b>100%</b>）。</p>
     <p><a class="navlink" href="../../status/">看全部站点的可用性 →</a></p></section>
@@ -268,7 +268,7 @@ document.querySelectorAll('.copy').forEach(function (btn) {
     <p>数据快照时间：2026-11-07 06:00 UTC · 由 <a href="https://github.com/ttys0102/ai-coding-free-sites">github.com/ttys0102/ai-coding-free-sites</a> 自动生成 · <a href="https://1261398983.github.io/ai-coding-free-sites/feed.xml">Atom 订阅</a></p>
   </footer>
   <div style="max-width:900px;margin:40px auto 0;padding:18px 22px;border:1px solid #24304a;border-radius:12px;background:#0e1524;font:14px/1.75 -apple-system,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;color:#c7d3e8">
-  QQ 邮箱即可注册，无需邀请码，按量计费；注册时在推广码栏填写渠道码可领额外额度。
+  ；注册时在推广码栏填写渠道码可领额外额度。
   · <a href="https://1261398983.github.io/ai-api-guide/" style="color:#8fb8e8;text-decoration:none">配置指南</a> 
   · <a href="https://1261398983.github.io/ai-api-guide/tools.html" style="color:#8fb8e8;text-decoration:none">工具配置</a>
   · <a href="https://1261398983.github.io/ai-api-guide/streaming.html" style="color:#8fb8e8;text-decoration:none">流式排查</a>
