@@ -14,7 +14,7 @@
   <a href="https://tabitoken.com/sign-up?aff=GJVG"><b>TaBiAI 注册</b></a> ·
   <a href="https://gorouter.app/sign-up?aff=eZeS"><b>GoRouter 注册</b></a> ·
   <a href="https://api.justwoker.icu/register?aff=kTKc"><b>JustDoWork 注册</b></a> ·
-  <a href="https://workbuddy.ai/invite?code=J3YMXR29"><b>WorkBuddy 注册</b></a>
+  <a href="https://www.workbuddy.cn/events/invite?inviteCode=66mi10xl5z"><b>WorkBuddy 注册</b></a>
 </p>
 
 <p align="center"><a href="https://ttys0102.github.io/ai-coding-free-sites/compare/">📊 按次 vs 按量折算横评</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/status/">🩺 可用性历史</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/changelog/">🗓 变动日志</a> · <a href="https://ttys0102.github.io/ai-coding-free-sites/feed.xml">🔔 Atom 订阅</a></p>
@@ -29,7 +29,7 @@
 | **TaBiAI** | 🔴 异常 | **$120** | 注册 $100 + 本页邀请 $20 | 支持签到 | Anthropic + OpenAI | 4 个可查 | [GitHub 注册 →](https://tabitoken.com/sign-up?aff=GJVG) |
 | **GoRouter** | 🔴 异常 | **$70** | 注册 $50 + 本页邀请 $20 | 支持签到 | Anthropic + OpenAI | 2 个可查 | [GitHub 注册 →](https://gorouter.app/sign-up?aff=eZeS) |
 | **JustDoWork** | 🟢 在线 | **≈$92** | 注册 $70 + 首签 ≈$22 | ≈$22/天 | Anthropic + OpenAI | 需登录查看 | [GitHub 注册 →](https://api.justwoker.icu/register?aff=kTKc) |
-| **WorkBuddy** | 🟢 在线 | **≈2100 积分** | 注册 2000 积分 + 首签 ≈100 积分 | ≈100 积分/天 | 桌面客户端 | 需登录查看 | [点此注册 →](https://workbuddy.ai/invite?code=J3YMXR29) |
+| **WorkBuddy** | 🟢 在线 | **≈2100 积分** | 注册 2000 积分 + 首签 ≈100 积分 | ≈100 积分/天 | 桌面客户端 | 需登录查看 | [点此注册 →](https://www.workbuddy.cn/events/invite?inviteCode=66mi10xl5z) |
 
 > 「首日可得」= 注册基础额度 + 本页邀请链接额度 + 当天能领的签到额度（每日重置额度池的站点按一天的池子算）；模型、价格、在线状态由脚本抓取站点公开接口自动生成，最后更新：`2026-11-08 13:19 UTC`。
 >
@@ -78,7 +78,7 @@ powershell -ExecutionPolicy Bypass -File scripts/quickstart.ps1
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 1631 小时没抓到新数据，下列信息为 `2026-09-01 14:01 UTC` 的快照
+- ⚠ 接口已连续 1632 小时没抓到新数据，下列信息为 `2026-09-01 14:01 UTC` 的快照
 - 站点名称：**Agent Router**
 - 面板版本：`init-20260901-138138e7`
 - 邀请他人可得：**$50**
@@ -216,7 +216,7 @@ curl -s https://agentrouter.org/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 1529 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
+- ⚠ 接口已连续 1530 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
 - 站点名称：**TaBiAI**
 - 面板版本：`init-20260817-f880a343`
 - 每日签到：✅
@@ -338,7 +338,7 @@ curl -s https://tabitoken.com/v1/chat/completions \
 
 **实时数据**（自动抓取站点公开接口）
 
-- ⚠ 接口已连续 1529 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
+- ⚠ 接口已连续 1530 小时没抓到新数据，下列信息为 `2026-09-05 20:18 UTC` 的快照
 - 站点名称：**GoRouter**
 - 面板版本：`init-20260813-3cd90886`
 - 每日签到：✅
@@ -553,7 +553,7 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 > 腾讯 AI 智能体桌面客户端 · 新用户注册即享 2000 积分，邀请一位好友得 100 积分
 
-<a href="https://workbuddy.ai/invite?code=J3YMXR29"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-WorkBuddy-brightgreen?style=for-the-badge" alt="注册 WorkBuddy"></a>
+<a href="https://www.workbuddy.cn/events/invite?inviteCode=66mi10xl5z"><img src="https://img.shields.io/badge/%E7%AB%8B%E5%8D%B3%E6%B3%A8%E5%86%8C-WorkBuddy-brightgreen?style=for-the-badge" alt="注册 WorkBuddy"></a>
 
 **为什么值得注册**
 
@@ -576,7 +576,7 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 **注册要求**
 
-- 好友需从本页邀请链接进入注册（带 ?code=J3YMXR29），邀请关系才成立，走裸链邀请人拿不到奖励
+- 好友需从本页邀请链接进入注册（带 ?inviteCode=66mi10xl5z），邀请关系才成立，走裸链邀请人拿不到奖励
 - 新用户 2,000 积分福利是官方邀请活动，2026-09-30 截止，之后数额以最新活动为准
 - 部分地区访问国际站 workbuddy.ai 会提示服务不可用，遇到这种情况可改用国内站 workbuddy.cn（同产品国内版）
 
