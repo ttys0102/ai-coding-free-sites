@@ -578,7 +578,8 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 - 好友需从本页邀请链接进入注册（带 ?inviteCode=66mi10xl5z），邀请关系才成立，走裸链邀请人拿不到奖励
 - 新用户 2,000 积分福利是官方邀请活动，2026-09-30 截止，之后数额以最新活动为准
-- 部分地区访问国际站 workbuddy.ai 会提示服务不可用，遇到这种情况可改用国内站 workbuddy.cn（同产品国内版）
+- 注册、下载、控制台都在国内站 www.workbuddy.cn，本页链接走的就是国内站，不用自己找入口
+- 国际站 workbuddy.ai 是同一产品的另一份入口，部分地区会提示服务不可用，遇到这种情况别绕，直接点本页链接即可
 
 **接入配置**
 
@@ -588,7 +589,7 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 2. 登录后新用户 2,000 积分福利自动到账；客户端「成长中心」里还有更多积分活动，以实际展示为准
 3. 日常在客户端左下角头像处签到领积分，轻量任务用轻量模式更省分
 
-控制台入口：<https://workbuddy.ai>
+控制台入口：<https://www.workbuddy.cn>
 
 **如何继续拿额度**
 
@@ -599,7 +600,7 @@ curl -s https://api.justwoker.icu/v1/chat/completions \
 
 **⚠️ 使用前必读**
 
-- 积分数额来自官方邀请活动页（codebuddy.cn/events/invite，2026-09-30 截止）、客户端活动页与官方计费文档，官方会不定期调整，一切以客户端实际展示为准
+- 积分数额来自官方邀请活动页（www.workbuddy.cn/events/invite，2026-09-30 截止）、客户端活动页与官方计费文档，官方会不定期调整，一切以客户端实际展示为准
 - 各类积分都有有效期，过期作废，领完规划着用、别囤
 - WorkBuddy 不对外开放 API，不能当中转站接 Claude Code / Codex / Cursor；要 API 额度请用本页其它站点，两者互补
 - 请勿相信「刷分 / 破解 / 无限积分」，基本是骗局且容易封号
